@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "40fb2dae301e4928",
+        "id": "375c5c827deac44e",
         "type": "tabs",
         "children": [
           {
-            "id": "016095fe0a9bd364",
+            "id": "d93dcd31c5698ecb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home Work/2023-09-19.md",
+                "file": "English/cours-2023-09-13.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Work/2023-09-19.md",
+                "file": "English/cours-2023-09-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Work/2023-09-19.md",
+                "file": "English/cours-2023-09-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Work/2023-09-19.md"
+                "file": "English/cours-2023-09-13.md"
               }
             }
           },
@@ -151,20 +151,21 @@
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false
+      "command-palette:Ouvrir la palette de commandes": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4c0384b4aa0669df",
+  "active": "d93dcd31c5698ecb",
   "lastOpenFiles": [
-    "Home Work",
+    "Home Work/2023-09-19.md",
+    "koudou/CYBERCECURITY-SLAM/cours2_cybersecurité.pdf",
+    "koudou/cours_virtualisation_et_clouds_computing.pdf",
+    "README.md",
     "CEJM/cours-2023-09-13.md",
     "English/cours-2023-09-13.md",
+    "Home Work",
     "CEJM",
-    "Home Work/2023-09-19.md",
     "Sans titre.canvas",
-    "README.md",
-    "English",
-    "koudou/CYBERCECURITY-SLAM/cours2_cybersecurité.pdf",
-    "koudou/cours_virtualisation_et_clouds_computing.pdf"
+    "English"
   ]
 }
