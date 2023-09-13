@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/homework/2023-09-19.md",
+                "file": "English/cours-2023-09-13.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English/homework/2023-09-19.md",
+                "file": "English/cours-2023-09-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English/homework/2023-09-19.md",
+                "file": "English/cours-2023-09-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English/homework/2023-09-19.md"
+                "file": "English/cours-2023-09-13.md"
               }
             }
           },
@@ -155,11 +155,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4c0384b4aa0669df",
+  "active": "d93dcd31c5698ecb",
   "lastOpenFiles": [
+    "English/homework/2023-09-19.md",
     "English/cours-2023-09-13.md",
     "CEJM/cours-2023-09-13.md",
-    "English/homework/2023-09-19.md",
     "koudou/CYBERCECURITY-SLAM/cours2_cybersecurité.pdf",
     "koudou/cours_virtualisation_et_clouds_computing.pdf",
     "README.md",
