@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CEJM/cours-2023-09-13.md",
+                "file": "Home Work/2023-09-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CEJM/cours-2023-09-13.md",
+                "file": "Home Work/2023-09-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CEJM/cours-2023-09-13.md",
+                "file": "Home Work/2023-09-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CEJM/cours-2023-09-13.md"
+                "file": "Home Work/2023-09-19.md"
               }
             }
           },
@@ -154,12 +154,13 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "016095fe0a9bd364",
+  "active": "4c0384b4aa0669df",
   "lastOpenFiles": [
-    "English/cours-2023-09-13.md",
+    "Home Work",
     "CEJM/cours-2023-09-13.md",
+    "English/cours-2023-09-13.md",
     "CEJM",
-    "2023-09-19.md",
+    "Home Work/2023-09-19.md",
     "Sans titre.canvas",
     "README.md",
     "English",
