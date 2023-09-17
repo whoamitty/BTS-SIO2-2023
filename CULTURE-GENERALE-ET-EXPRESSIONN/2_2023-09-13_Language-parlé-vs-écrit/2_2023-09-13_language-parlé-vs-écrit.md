@@ -1,14 +1,14 @@
 Scanné avec Google Lens
 
 
-# DISTINGUER L'EXPRESSION ECRITE DU LANGAGE PARLE
+# DISTINGUER L'EXPRESSION ÉCRITE DU LANGAGE PARLÉ
 
 Pour rédiger correctement, il convient d'éviter toutes les formes de négligence présentes dans le langage parlé.
 
 ### 1. Il faut employer la négation complète
 
-Le langage parlé a tendance à omettre le « ne» dans les négations ne... pas» ou « ne... plus qui sont les formes grammaticales correctes à l'écrit.
-==Je ne peux pas venir demain== est la tournure correcte (et non Je peux pas venir demain). Il n'habite plus ici (et non i habite plus ici).
+• Le langage parlé a tendance à omettre le « ne» dans les négations ne... pas» ou « ne... plus qui sont les formes grammaticales correctes à l'écrit.
+`Je ne peux pas venir demain` est la tournure correcte (et non Je peux pas venir demain). Il n'habite plus ici (et non i habite plus ici).
 • Attention à ne pas confondre la liaison avec la négation, en particulier après l'emploi de on.
 `On n'entend aucun bruit` se prononce comme On entend aucun bruit qui est incorrect.
 
