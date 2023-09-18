@@ -110,8 +110,8 @@ Petite ébauche sur l'orientation de la recherche:
     - BDD : ✅ - Il prend en charge diverses bases de données.
     - Évolutivité : ✅ - Laravel est bien adapté aux projets en croissance.
     - Documentation : ✅ - Laravel propose une documentation approfondie.
-    - ✅ : Laravel est également bien documenté et bénéficie d'une communauté active. Il offre des outils conviviaux pour la maintenance, y compris la gestion des migrations de base de données.
-    - ❌ Laravel, bien qu'offrant une excellente documentation, peut être complexe pour les débutants en PHP.
+    - Maintenance : ✅ Laravel est également bien documenté et bénéficie d'une communauté active. Il offre des outils conviviaux pour la maintenance, y compris la gestion des migrations de base de données.
+    - Débutant : ❌ Laravel, bien qu'offrant une excellente documentation, peut être complexe pour les débutants en PHP.
 
 
 
@@ -157,5 +157,5 @@ Petite ébauche sur l'orientation de la recherche:
 
 
 
-## Voici quelques resources que j'ai utiliser pour mener à bien ma recherche sur ces choix
+
 
