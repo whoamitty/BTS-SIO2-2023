@@ -1,0 +1,57 @@
+// graphe MPM
+digraph {
+	node [shape=plaintext]
+	graph [rankdir=LR]
+	subgraph cluster_0 {
+		label="" labelloc=u penwidth=0 rank=same
+		A [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">A</TD></TR><TR><TD>0</TD><TD>0</TD></TR></TABLE>>]
+		B [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">B</TD></TR><TR><TD>0</TD><TD>18</TD></TR></TABLE>>]
+	}
+	subgraph cluster_1 {
+		label="" labelloc=u penwidth=0 rank=same
+		C [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">C</TD></TR><TR><TD>4</TD><TD>9</TD></TR></TABLE>>]
+		D [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">D</TD></TR><TR><TD>4</TD><TD>4</TD></TR></TABLE>>]
+	}
+	subgraph cluster_2 {
+		label="" labelloc=u penwidth=0 rank=same
+		E [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">E</TD></TR><TR><TD>5</TD><TD>5</TD></TR></TABLE>>]
+		F [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">F</TD></TR><TR><TD>6</TD><TD>11</TD></TR></TABLE>>]
+	}
+	subgraph cluster_3 {
+		label="" labelloc=u penwidth=0 rank=same
+		G [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">G</TD></TR><TR><TD>7</TD><TD>7</TD></TR></TABLE>>]
+	}
+	subgraph cluster_4 {
+		label="" labelloc=u penwidth=0 rank=same
+		H [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">H</TD></TR><TR><TD>10</TD><TD>10</TD></TR></TABLE>>]
+	}
+	subgraph cluster_5 {
+		label="" labelloc=u penwidth=0 rank=same
+		I [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">I</TD></TR><TR><TD>13</TD><TD>13</TD></TR></TABLE>>]
+	}
+	subgraph cluster_6 {
+		label="" labelloc=u penwidth=0 rank=same
+		J [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">J</TD></TR><TR><TD>16</TD><TD>16</TD></TR></TABLE>>]
+	}
+	subgraph cluster_7 {
+		label="" labelloc=u penwidth=0 rank=same
+		fin [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="2" PORT="here">fin</TD></TR><TR><TD>20</TD><TD>20</TD></TR></TABLE>>]
+	}
+	debut [label="début" shape=ellipse]
+	debut -> A
+	debut -> B
+	A -> C [label=4 headport=here tailport=here]
+	A -> D [label=4 headport=here tailport=here]
+	A -> E [label=4 headport=here tailport=here]
+	B -> fin [label=2 headport=here tailport=here]
+	C -> F [label=2 headport=here tailport=here]
+	D -> E [label=1 headport=here tailport=here]
+	D -> G [label=1 headport=here tailport=here]
+	E -> G [label=2 headport=here tailport=here]
+	E -> H [label=2 headport=here tailport=here]
+	F -> J [label=5 headport=here tailport=here]
+	G -> H [label=3 headport=here tailport=here]
+	H -> I [label=3 headport=here tailport=here]
+	I -> J [label=3 headport=here tailport=here]
+	J -> fin [label=4 headport=here tailport=here]
+}

@@ -75,9 +75,9 @@ Easter Egg
 ==========
 
 .. code-block:: pycon
-
+```python
   >>> import this
-
+```
 
 
  `whoamitty: long live "zen of python" !`

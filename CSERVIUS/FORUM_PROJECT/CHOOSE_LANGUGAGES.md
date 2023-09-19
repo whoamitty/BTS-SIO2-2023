@@ -15,9 +15,11 @@ Petite ébauche sur l'orientation de la recherche:
     
 - Framework Python : Django / Flask
 
-
+<br>
+<br>
 
 # Voici un comparatif en tableau des différents frameworks
+
 
 |                  | Langage     | Front-end             | Back-end              | Base de données        | Évolutivité     | Documentation |
 | ---------------- | ----------- | --------------------- | --------------------- | ---------------------- | --------------- | ------------- |
@@ -30,37 +32,44 @@ Petite ébauche sur l'orientation de la recherche:
 | **CodeIgniter**  | PHP         | HTML, CSS             | PHP                   | MySQL, PostgreSQL, etc. | Limitée         | [Documentation CodeIgniter](https://codeigniter.com/user_guide/) |
 | **Slim**         | PHP         | HTML, CSS             | PHP                   | MySQL, PostgreSQL, etc. | Modérée         | [Documentation Slim](http://www.slimframework.com/docs/v4/) |
 | **Django**       | Python      | HTML, CSS, JavaScript | Python                | PostgreSQL, MySQL, etc. | Élevée          | [Documentation Django](https://docs.djangoproject.com/) |
-| **Flask**        | Python      | HTML, CSS, JavaScript | Python                | PostgreSQL, MySQL, etc. | Modérée         | [Documentation Flask](https://f  lask.palletsprojects.com/en/2.1.x/) |
+| **Flask**        | Python      | HTML, CSS, JavaScript | Python                | PostgreSQL, MySQL, etc. | Modérée         | [Documentation Flask](https://flask.palletsprojects.com/en/2.1.x/) |
 
 
-
-
+<br>
 
 # Synthétique +++
-| Framework   | HTML/CSS/JS | Front-end | Back-end | BDD | Évolutivité | Documentation | Maintenance facile | Pour débutant |
-| ----------- | ----------- | --------- | -------- | --- | ----------- | ------------- | ------------------ | ------------- |
-| Vanilla JS (JS pur) | ✅          | ❌        | ❌       | ❌  | ❌          | ✅            | ✅                 | ✅            |
-| React.js    | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| Vue.js      | ✅          | ✅        | ✅       | ✅  | ❌          | ✅            | ✅                 | ✅            |
-| Angular.js  | ❌          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| Symfony     | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| Laravel     | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| CodeIgniter | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
-| Slim        | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
-| Django      | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| Flask       | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
 
+| Framework           | HTML/CSS/JS | Front-end | Back-end | BDD | Évolutivité | Documentation | Maintenance facile | Pour débutant |
+| ------------------- | ----------- | --------- | -------- | --- | ----------- | ------------- | ------------------ | ------------- |
+| Vanilla JS (JS pur) | ✅          | ❌        | ❌       | ❌  | ❌          | ✅            | ✅                 | ✅            | 
+| React.js            | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| Vue.js              | ✅          | ✅        | ✅       | ✅  | ❌          | ✅            | ✅                 | ✅            |
+| Angular.js          | ❌          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| Symfony             | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| Laravel             | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| CodeIgniter         | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
+| Slim                | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
+| Django              | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| Flask               | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
+
+<br>
+<br>
 
 
 
 # Explications linéaire
 
 1. JavaScript **Vanilla JS** :
-    - ✅ : Vanilla JS est relativement facile à entretenir car il s'agit de JavaScript pur sans aucune dépendance. Cela signifie que les mises à jour sont généralement simples et qu'il est facile de trouver de la documentation.
+    - HTML/CSS/JS : ✅ - Vanilla JS est du JavaScript pur, donc il est nécessaire d'utiliser du HTML et CSS avec.
+    - 
     - Front-end : ❌ - Vanilla JS n'est pas un framework front-end, vous devez gérer le front-end vous-même.
+    - 
     - Back-end : ❌ - Il n'est pas destiné à la gestion du back-end.
+      
     - BDD : ❌ - Vanilla JS n'inclut pas de fonctionnalités de base de données, cela dépendra du back-end que vous utilisez.
     - Évolutivité : ❌ - L'évolutivité dépendra entièrement de la manière dont vous structurez votre code.
+      
+        
     - Documentation : ✅ - Étant une technologie de base du web, il existe une documentation exhaustive pour JavaScript.
     - Maintenance : ✅ Vanilla JS n'a pas de dépendances externes ni de structure de framework, ce qui le rend facile à entretenir car il n'y a pas de mises à jour de framework à gérer.
     - Débutant : ✅ Il s'agit de JavaScript pur, ce qui en fait une bonne option pour les débutants qui maîtrisent déjà HTML/CSS.
