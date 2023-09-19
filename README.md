@@ -45,28 +45,30 @@ have been written down.
 
 
 
-A french translate did published under [Creative Commons](https://fr.wikipedia.org/wiki/Creative_Commons "Creative Commons") licence BY-NC-SA in a Python programming course [4](https://fr.wikipedia.org/wiki/Zen_de_Python#cite_note-4),
+A french translate did published under [Creative Commons](https://fr.wikipedia.org/wiki/Creative_Commons "Creative Commons") licence BY-NC-SA in a Python<br>programming course [Wikipedia](https://fr.wikipedia.org/wiki/Zen_de_Python#cite_note-4),
 
-> Préfère :  
->       la beauté à la laideur,  
->       l'explicite à l'implicite,  
->       le simple au complexe  
->       et le complexe au compliqué,  
->       le déroulé à l'imbriqué,  
->       l'aéré au compact.  
-> Prends en compte la lisibilité.  
-> Les cas particuliers ne le sont jamais assez pour violer les règles.  
-> Mais, à la pureté, privilégie l'aspect pratique.  
-> Ne passe pas les erreurs sous silence,  
-> ... ou bâillonne-les explicitement.  
-> Face à l'ambiguïté, à deviner ne te laisse pas aller.  
-> Sache qu'il ne devrait [y] avoir qu'une et une seule façon de procéder,  
-> même si, de prime abord, elle n'est pas évidente, à moins d'être Néerlandais.  
-> Mieux vaut maintenant que jamais.  
-> Cependant jamais est souvent mieux qu'immédiatement.  
-> Si l'implémentation s'explique difficilement, c'est une mauvaise idée.  
-> Si l'implémentation s'explique aisément, c'est peut-être une bonne idée.  
-> Les espaces de nommage ! Sacrée bonne idée ! Faisons plus de trucs comme ça.
+.. code-block:: text
+
+	Préfère :  
+	      la beauté à la laideur,  
+	      l'explicite à l'implicite,  
+	      le simple au complexe  
+	      et le complexe au compliqué,  
+	      le déroulé à l'imbriqué,  
+	      l'aéré au compact.  
+	Prends en compte la lisibilité.  
+	Les cas particuliers ne le sont jamais assez pour violer les règles.  
+	Mais, à la pureté, privilégie l'aspect pratique.  
+	Ne passe pas les erreurs sous silence,  
+	... ou bâillonne-les explicitement.  
+	Face à l'ambiguïté, à deviner ne te laisse pas aller.  
+	Sache qu'il ne devrait [y] avoir qu'une et une seule façon de procéder,  
+	même si, de prime abord, elle n'est pas évidente, à moins d'être Néerlandais.  
+	Mieux vaut maintenant que jamais.  
+	Cependant jamais est souvent mieux qu'immédiatement.  
+	Si l'implémentation s'explique difficilement, c'est une mauvaise idée.  
+	Si l'implémentation s'explique aisément, c'est peut-être une bonne idée.  
+	Les espaces de nommage ! Sacrée bonne idée ! Faisons plus de trucs comme ça.
 
 
 Easter Egg

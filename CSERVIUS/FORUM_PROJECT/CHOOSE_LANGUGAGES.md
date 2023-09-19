@@ -30,7 +30,7 @@ Petite ébauche sur l'orientation de la recherche:
 | **CodeIgniter**  | PHP         | HTML, CSS             | PHP                   | MySQL, PostgreSQL, etc. | Limitée         | [Documentation CodeIgniter](https://codeigniter.com/user_guide/) |
 | **Slim**         | PHP         | HTML, CSS             | PHP                   | MySQL, PostgreSQL, etc. | Modérée         | [Documentation Slim](http://www.slimframework.com/docs/v4/) |
 | **Django**       | Python      | HTML, CSS, JavaScript | Python                | PostgreSQL, MySQL, etc. | Élevée          | [Documentation Django](https://docs.djangoproject.com/) |
-| **Flask**        | Python      | HTML, CSS, JavaScript | Python                | PostgreSQL, MySQL, etc. | Modérée         | [Documentation Flask](https://flask.palletsprojects.com/en/2.1.x/) |
+| **Flask**        | Python      | HTML, CSS, JavaScript | Python                | PostgreSQL, MySQL, etc. | Modérée         | [Documentation Flask](https://f  lask.palletsprojects.com/en/2.1.x/) |
 
 
 
