@@ -1,0 +1,105 @@
+
+*{box-sizing: border-box}
+
+body{margin:10;overflow:hidden}
+
+/*	
+@keyframes animation_slide {
+0% {left:0}
+10%{left:0}
+
+11%{left:-100%}
+21%{left:-100%}
+
+22%{left:-200%}
+32%{left:-200%}
+
+33%{left:-300%}
+43%{left:-300%}
+
+44%{left:-400%}
+54%{left:-400%}
+
+55%{left:-500%}
+65%{left:-500%}
+
+66%{left:-600%}
+76%{left:-600%}
+
+77%{left:-700%}
+87%{left:-700%}
+
+88%{left:-800%}
+98%{left:-800%}
+
+99%{left:-900%}
+100%{left:-900%}
+100%{transform:translatex(-100%)}
+<img src="images/im9.png" alt/>
+   */
+
+@keyframes animation_slide {
+	
+0% {transform:translatex(0)}
+10%{transform:translatex(0)}
+
+11%{transform:translatex(-10%)}
+21%{transform:translatex(-10%)}
+
+22%{transform:translatex(-20%)}
+32%{transform:translatex(-20%)}
+
+33%{transform:translatex(-30%)}
+43%{transform:translatex(-30%)}
+
+44% {transform:translatex(-40%)}
+54%{transform:translatex(-40%)}
+
+55% {transform:translatex(-60%)}
+65%{transform:translatex(-60%)}
+
+
+66% {transform:translatex(-70%)}
+76%{transform:translatex(-70%)}
+
+77% {transform:translatex(-80%)}
+87%{transform:translatex(-80%)}
+
+88% {transform:translatex(-90%)}
+100%{transform:translatex(-90%)}
+
+
+
+
+	
+	}
+
+	
+div img{
+	
+pointer-events:none;
+height:100vh;
+object-fit:contain;
+float:left;
+width:10%
+	
+	}
+	
+	
+div{
+position:relative;
+width:1000%;
+margin:0;
+animation:80s animation_slide infinite; 
+	
+}
+
+@media (min-width:62.75rem){
+		
+div img{
+	
+	object-fit:cover
+	
+	}
+		
+	}

@@ -39,23 +39,47 @@ Petite ébauche sur l'orientation de la recherche:
 
 # Synthétique +++
 
-| Framework           | HTML/CSS/JS | Front-end | Back-end | BDD | Évolutivité | Documentation | Maintenance facile | Pour débutant |
-| ------------------- | ----------- | --------- | -------- | --- | ----------- | ------------- | ------------------ | ------------- |
-| Vanilla JS (JS pur) | ✅          | ❌        | ❌       | ❌  | ❌          | ✅            | ✅                 | ✅            | 
-| React.js            | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| Vue.js              | ✅          | ✅        | ✅       | ✅  | ❌          | ✅            | ✅                 | ✅            |
-| Angular.js          | ❌          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| Symfony             | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| Laravel             | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| CodeIgniter         | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
-| Slim                | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
-| Django              | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
-| Flask               | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
+| Framework             | HTML/CSS/JS | Front-end | Back-end | BDD | Évolutivité | Documentation | Maintenance facile | Pour débutant |
+| --------------------- | ----------- | --------- | -------- | --- | ----------- | ------------- | ------------------ | ------------- |
+| 1 Vanilla JS (JS pur) | ✅          | ❌        | ❌       | ❌  | ❌          | ✅            | ✅                 | ✅            |
+| 2 React.js            | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| 3 Vue.js              | ✅          | ✅        | ✅       | ✅  | ❌          | ✅            | ✅                 | ✅            |
+| 4 Angular.js          | ❌          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| 5 Symfony             | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| 6 Laravel             | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| 7 CodeIgniter         | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
+| 8 Slim                | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
+| 9 Django              | ✅          | ✅        | ✅       | ✅  | ✅          | ✅            | ✅                 | ❌            |
+| 10 Flask              | ✅          | ✅        | ✅       | ✅  | ❌          | ❌            | ❌                 | ✅            |
 
 <br>
 <br>
 
+Nombre de Points
 
+| FrameWork                  | Count ✅ |
+|:-------------------------- |:--------:|
+| 1  Vanilla     JS (JS pur) |    4     |
+| 2  React.js    JS          |    7     |
+| 3  Vue.js      JS          |    7     |
+| 4  Angular.js  JS          |    6     |
+| 5  Symfony     PHP         |    7     |
+| 6  Laravel     PHP         |    7     |
+| 7  CodeIgniter PHP         |    5     |
+| 8  Slim        PHP         |    5     |
+| 9  Django      Python      |    7     |
+| 10 Flask       Python      |    5     |
+
+
+Le top 
+
+| FrameWork             | Count ✅ |
+| --------------------- |:--------:|
+| 2  React.js    JS     |    7     |
+| 3  Vue.js      JS     |    7     |
+| 5  Symfony     PHP    |    7     |
+| 6  Laravel     PHP    |    7     |
+| 9  Django      Python |    7     |
 
 # Explications linéaire
 
@@ -101,7 +125,7 @@ Petite ébauche sur l'orientation de la recherche:
     - Évolutivité : ✅ - Il est bien adapté aux applications de grande envergure.
     - Documentation : ✅ - La documentation d'Angular est riche.
     - Maintenance : ✅ - framework complet avec une structure solide, ce qui le rend facile à entretenir pour les grandes applications. Cependant, cela peut être un peu plus complexe pour de petits projets.
-    - ❌ Angular a une courbe d'apprentissage plus raide en raison de sa complexité, ce qui le rend moins adapté aux débutants.
+    - Angular: ❌  - courbe d'apprentissage plus raide en raison de sa complexité, ce qui le rend moins adapté aux débutants.
 
 
 6. PHP **Symfony** :
