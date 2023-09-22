@@ -81,6 +81,7 @@ Le top
 | 6  Laravel     PHP    |    7     |
 | 9  Django      Python |    7     |
 
+
 # Explications linéaire
 
 1. JavaScript **Vanilla JS** :
