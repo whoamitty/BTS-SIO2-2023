@@ -86,9 +86,7 @@ Le top
 
 1. JavaScript **Vanilla JS** :
     - HTML/CSS/JS : ✅ - Vanilla JS est du JavaScript pur, donc il est nécessaire d'utiliser du HTML et CSS avec.
-    - 
     - Front-end : ❌ - Vanilla JS n'est pas un framework front-end, vous devez gérer le front-end vous-même.
-    - 
     - Back-end : ❌ - Il n'est pas destiné à la gestion du back-end.
       
     - BDD : ❌ - Vanilla JS n'inclut pas de fonctionnalités de base de données, cela dépendra du back-end que vous utilisez.
