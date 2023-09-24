@@ -75,12 +75,28 @@ Easter Egg
 ==========
 
 .. code-block:: pycon
-```python
+
   >>> import this
-```
+
+
+References
+==========
+
+Originally posted to comp.lang.python/python-list@python.org under a
+thread called `"The Way of Python"
+<https://groups.google.com/d/msg/comp.lang.python/B_VxeTBClM0/L8W9KlsiriUJ>`__
+
+
+Copyright
+=========
+
+This document has been placed in the public domain.
 
 
  `whoamitty: long live "zen of python" !`
+
+
+
 
 <!-- 
 sed -E 's/>( | )*//g' 

@@ -3,8 +3,7 @@
 Nous devons coder un forum
 Et pour ça il faut commencer par choisir quels Framework utiliser
 
-Je doit pour le moment chercher quels Frameworks on utiliseras
-
+Je doit pour le moment chercher quels Frameworks BACKEND on utiliseras
 
 Petite ébauche sur l'orientation de la recherche:
 - HTML / CSS / JS
@@ -18,7 +17,8 @@ Petite ébauche sur l'orientation de la recherche:
 <br>
 <br>
 
-# Voici un comparatif en tableau des différents frameworks
+
+# Voici un comparatif en tableau qui traite finallement de différents frameworks BACK + FRONT
 
 
 |                  | Langage     | Front-end             | Back-end              | Base de données        | Évolutivité     | Documentation |
