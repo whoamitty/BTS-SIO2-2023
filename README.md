@@ -21,7 +21,6 @@ have been written down.
 [The Zen of Python](https://www.pynerds.com/the-zen-of-python-guiding-principles-for-writing-elegant-python-programs/)
 =================
 
-.. code-block:: text
 
     Beautiful is better than ugly.
     Explicit is better than implicit.
@@ -47,7 +46,6 @@ have been written down.
 
 A french translate did published under [Creative Commons](https://fr.wikipedia.org/wiki/Creative_Commons "Creative Commons") licence BY-NC-SA in a Python<br>programming course [Wikipedia](https://fr.wikipedia.org/wiki/Zen_de_Python#cite_note-4),
 
-.. code-block:: text
 
 	Préfère :  
 	      la beauté à la laideur,  
@@ -73,10 +71,10 @@ A french translate did published under [Creative Commons](https://fr.wikipedia.
 
 Easter Egg
 ==========
-
-.. code-block:: pycon
-
+```python
   >>> import this
+```
+
 
 
 References
@@ -86,11 +84,6 @@ Originally posted to comp.lang.python/python-list@python.org under a
 thread called `"The Way of Python"
 <https://groups.google.com/d/msg/comp.lang.python/B_VxeTBClM0/L8W9KlsiriUJ>`__
 
-
-Copyright
-=========
-
-This document has been placed in the public domain.
 
 
  `whoamitty: long live "zen of python" !`
