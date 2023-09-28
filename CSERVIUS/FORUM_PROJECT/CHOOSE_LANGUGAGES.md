@@ -29,8 +29,8 @@ Je ne mentirais pas sur le fait que chatgpt m'as beaucoup aidé
 | **Vanilla JS**  | JavaScript | HTML, CSS, JavaScript | Aucun             |       F       | Aucune                  | Limitée     | [Documentation Vanilla JS(JS pur)](https://developer.mozilla.org/fr/docs/Web/JavaScript) |
 | **React.js**    | JavaScript | JSX, CSS              | Node.js (Express) |       F       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation React.js](https://fr.legacy.reactjs.org/docs/getting-started.html)        |
 | **Vue.js**      | JavaScript | Vue, CSS              | Node.js (Express) |       F       | MySQL, PostgreSQL, etc. | Modérée     | [Documentation Vue.js](https://fr.vuejs.org/guide/introduction.html)                     |
-| **Node.js**     | JavaScript | N/A                   | Node.js (Express) |       B       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Node.js](https://nodejs.org/fr/docs/)                                     |
 | **Angular**     | TypeScript | Angular, CSS          | Node.js (Express) |       F       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Angular](https://angular.io/docs)                                         |
+| **Node.js**     | JavaScript | N/A                   | Node.js (Express) |       B       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Node.js](https://nodejs.org/fr/docs/)                                     |
 | **Symfony**     | PHP        | Twig, CSS             | PHP               |       B       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Symfony](https://symfony.com/doc/current/index.html)                      |
 | **Laravel**     | PHP        | Blade, CSS            | PHP               |       B       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Laravel](https://laravel.com/docs)                                        |
 | **CodeIgniter** | PHP        | HTML, CSS             | PHP               |       B       | MySQL, PostgreSQL, etc. | Limitée     | [Documentation CodeIgniter](https://codeigniter.com/user_guide/)                         |
@@ -47,8 +47,8 @@ Je ne mentirais pas sur le fait que chatgpt m'as beaucoup aidé
 | 1 Vanilla JS (JS pur) |     ✅      |    ❌     |    ❌    | ❌  |     ❌      |      ✅       |         ✅         |      ✅       |
 | 2 React.js            |     ✅      |    ✅     |    ✅    | ✅  |     ✅      |      ✅       |         ✅         |      ❌       |
 | 3 Vue.js              |     ✅      |    ✅     |    ✅    | ✅  |     ❌      |      ✅       |         ✅         |      ✅       |
-| 4 Node.js             |     ✅      |    ❌     |    ✅    | ✅  |     ✅      |      ✅       |         ✅         |      ✅       |
-| 5 Angular.js          |     ❌      |    ✅     |    ✅    | ✅  |     ✅      |      ✅       |         ✅         |      ❌       |
+| 4 Angular.js          |     ❌      |    ✅     |    ✅    | ✅  |     ✅      |      ✅       |         ✅         |      ❌       |
+| 5 Node.js             |     ✅      |    ❌     |    ✅    | ✅  |     ✅      |      ✅       |         ✅         |      ✅       |
 | 6 Symfony             |     ✅      |    ✅     |    ✅    | ✅  |     ✅      |      ✅       |         ✅         |      ❌       |
 | 7 Laravel             |     ✅      |    ✅     |    ✅    | ✅  |     ✅      |      ✅       |         ✅         |      ❌       |
 | 8 CodeIgniter         |     ✅      |    ✅     |    ✅    | ✅  |     ❌      |      ❌       |         ❌         |      ✅       |
@@ -69,9 +69,9 @@ Nombre de Points
 | 1  Vanilla     JS (JS pur) |    4     |          F           |
 | 2  React.js    JS          |    7     |          F           |
 | 3  Vue.js      JS          |    7     |          F           |
-| 4  Node.js     JS          |    8     |          B           |
-| 5  Angular.js  JS          |    6     |          F           |
-| 6  Symfony     PHP         |    7     |          B           | 
+| 4  Angular.js  JS          |    6     |          F           |
+| 5  Node.js     JS          |    8     |          B           |
+| 6  Symfony     PHP         |    7     |          B           |
 | 7  Laravel     PHP         |    7     |          B           |
 | 8  CodeIgniter PHP         |    5     |          B           |
 | 9  Slim        PHP         |    5     |          B           |
@@ -85,7 +85,7 @@ Le top
 | ------------------- |:--------:|:--------------------:|
 | 2  React.js   JS    |    7     |          F           | 
 | 3  Vue.js     JS    |    7     |          F           |
-| 4  Node.js    JS    |    8     |          F           |
+| 5  Node.js    JS    |    8     |          F           |
 | 6  Symfony    PHP   |    7     |          B           |
 | 7  Laravel    PHP   |    7     |          B           |
 | 10 Django    Python |    7     |          B           |
@@ -115,16 +115,8 @@ Le top
     - Maintenance : ✅ - populaire et bien documenté, ce qui facilite la maintenance. De plus, il bénéficie d'une forte communauté et d'une grande adoption, ce qui signifie que les problèmes sont rapidement résolus.
     - Débutant : ❌ - Bien que React soit largement utilisé et bien documenté, sa gestion d'état complexe et son utilisation d'un langage JSX peuvent rendre son apprentissage moins adapté aux débutants.
 
-4. JavaScript **Vue.js** :    
-    - Front-end : ✅ - Il est principalement destiné au front-end.
-    - Back-end : ✅ - Vous pouvez le coupler avec divers back-ends.
-    - BDD : ✅ - Il est compatible avec plusieurs bases de données.
-    - Évolutivité : ❌ - Il peut être moins adapté à de très grandes applications.
-    - Documentation : ✅ - Documentation complète.
-    - Maintenance : ✅ - bien documenté et offre une courbe d'apprentissage douce, ce qui facilite la maintenance, en particulier pour les petites et moyennes applications.
-    - Débutant : ✅ - Vue.js réputé pour sa simplicité, ce qui le rend adapté aux débutants.
 
-5. TypeScript **Angular.js** :    
+4. TypeScript **Angular.js** :    
     - HTML/CSS/JS : ❌ - Angular nécessite une syntaxe spécifique pour les modèles HTML et utilise TypeScript.
     - Front-end : ✅ - Il s'agit d'un framework front-end complet.
     - Back-end : ✅ - Il peut être utilisé avec divers back-ends.
@@ -135,6 +127,14 @@ Le top
     - Angular: ❌  - courbe d'apprentissage plus raide en raison de sa complexité, ce qui le rend moins adapté aux débutants.
 
 
+5. JavaScript **Vue.js** :    
+    - Front-end : ✅ - Il est principalement destiné au front-end.
+    - Back-end : ✅ - Vous pouvez le coupler avec divers back-ends.
+    - BDD : ✅ - Il est compatible avec plusieurs bases de données.
+    - Évolutivité : ❌ - Il peut être moins adapté à de très grandes applications.
+    - Documentation : ✅ - Documentation complète.
+    - Maintenance : ✅ - bien documenté et offre une courbe d'apprentissage douce, ce qui facilite la maintenance, en particulier pour les petites et moyennes applications.
+    - Débutant : ✅ - Vue.js réputé pour sa simplicité, ce qui le rend adapté aux débutants.
 
 6. **Node.js** :
     - HTML/CSS/JS : ✅ - Node.js est principalement utilisé pour le développement back-end mais peut être utilisé pour gérer des applications web complètes avec HTML, CSS et JavaScript.
