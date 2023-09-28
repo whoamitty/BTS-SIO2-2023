@@ -85,7 +85,7 @@ Le top
 | ------------------- |:--------:|:--------------------:|
 | 2  React.js   JS    |    7     |          F           | 
 | 3  Vue.js     JS    |    7     |          F           |
-| 5  Node.js    JS    |    8     |          F           |
+| 5  Node.js    JS    |    8     |          B           |
 | 6  Symfony    PHP   |    7     |          B           |
 | 7  Laravel    PHP   |    7     |          B           |
 | 10 Django    Python |    7     |          B           |
