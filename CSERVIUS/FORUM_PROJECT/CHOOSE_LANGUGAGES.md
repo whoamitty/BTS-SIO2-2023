@@ -194,7 +194,7 @@ Le top
     - Débutant : ❌ bien que puissant, peut être complexe pour les débutants en Python.
 
 
-11. Python **Flask**:
+12. Python **Flask**:
     - Front-end : ✅ - Vous pouvez l'utiliser avec n'importe quel framework front-end.
     - Back-end : ✅ - C'est un micro-framework back-end.
     - BDD : ✅ - Il est compatible avec différentes bases de données.
