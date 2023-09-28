@@ -190,8 +190,8 @@ Le top
     - BDD : ✅ - Il est livré avec un ORM et prend en charge diverses bases de données.
     - Évolutivité : ✅ - Django est adapté aux projets de toutes tailles.
     - Documentation : ✅ - Il dispose d'une documentation complète.
-    - Maintenance : ✅ Django est bien documenté, suit des bonnes pratiques de développement et offre des outils pour la gestion de base de données et la sécurité. Il est donc considéré comme facile à maintenir.
-    - Débutant : ❌ bien que puissant, peut être complexe pour les débutants en Python.
+    - Maintenance : ✅ - Django est bien documenté, suit des bonnes pratiques de développement et offre des outils pour la gestion de base de données et la sécurité. Il est donc considéré comme facile à maintenir.
+    - Débutant : ❌ - bien que puissant, peut être complexe pour les débutants en Python.
 
 
 12. Python **Flask**:
