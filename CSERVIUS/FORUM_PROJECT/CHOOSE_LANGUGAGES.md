@@ -29,8 +29,8 @@ Je ne mentirais pas sur le fait que chatgpt m'as beaucoup aidé
 | **Vanilla JS**  | JavaScript | HTML, CSS, JavaScript | Aucun             |       F       | Aucune                  | Limitée     | [Documentation Vanilla JS(JS pur)](https://developer.mozilla.org/fr/docs/Web/JavaScript) |
 | **React.js**    | JavaScript | JSX, CSS              | Node.js (Express) |       F       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation React.js](https://fr.legacy.reactjs.org/docs/getting-started.html)        |
 | **Vue.js**      | JavaScript | Vue, CSS              | Node.js (Express) |       F       | MySQL, PostgreSQL, etc. | Modérée     | [Documentation Vue.js](https://fr.vuejs.org/guide/introduction.html)                     |
-| **Node.js**     | JavaScript | N/A                   | Node.js (Express) |       F       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Node.js](https://nodejs.org/fr/docs/)                                     |
-| **Angular**     | TypeScript | Angular, CSS          | Node.js (Express) |       B       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Angular](https://angular.io/docs)                                         |
+| **Node.js**     | JavaScript | N/A                   | Node.js (Express) |       B       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Node.js](https://nodejs.org/fr/docs/)                                     |
+| **Angular**     | TypeScript | Angular, CSS          | Node.js (Express) |       F       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Angular](https://angular.io/docs)                                         |
 | **Symfony**     | PHP        | Twig, CSS             | PHP               |       B       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Symfony](https://symfony.com/doc/current/index.html)                      |
 | **Laravel**     | PHP        | Blade, CSS            | PHP               |       B       | MySQL, PostgreSQL, etc. | Élevée      | [Documentation Laravel](https://laravel.com/docs)                                        |
 | **CodeIgniter** | PHP        | HTML, CSS             | PHP               |       B       | MySQL, PostgreSQL, etc. | Limitée     | [Documentation CodeIgniter](https://codeigniter.com/user_guide/)                         |
@@ -69,8 +69,8 @@ Nombre de Points
 | 1  Vanilla     JS (JS pur) |    4     |          F           |
 | 2  React.js    JS          |    7     |          F           |
 | 3  Vue.js      JS          |    7     |          F           |
-| 4  Node.js     JS          |    8     |          F           |
-| 5  Angular.js  JS          |    6     |          B           |
+| 4  Node.js     JS          |    8     |          B           |
+| 5  Angular.js  JS          |    6     |          F           |
 | 6  Symfony     PHP         |    7     |          B           | 
 | 7  Laravel     PHP         |    7     |          B           |
 | 8  CodeIgniter PHP         |    5     |          B           |
