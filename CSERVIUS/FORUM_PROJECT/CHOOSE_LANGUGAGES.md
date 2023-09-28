@@ -184,7 +184,7 @@ Le top
     -   Maintenance : ❌ Slim est un micro-framework, ce qui signifie qu'il offre moins de fonctionnalités par rapport à des frameworks plus complets comme Symfony ou Laravel. Cela peut rendre la maintenance plus complexe pour les applications plus importantes.
     - Débutant : ✅  minimaliste et facile à appréhender, ce qui en fait un bon choix pour les débutants.
     
-10.  Python **Django** :
+10. Python **Django** :
     - Front-end : ✅ - Vous pouvez le coupler avec n'importe quel framework front-end.
     - Back-end : ✅ - C'est un framework back-end complet.
     - BDD : ✅ - Il est livré avec un ORM et prend en charge diverses bases de données.
