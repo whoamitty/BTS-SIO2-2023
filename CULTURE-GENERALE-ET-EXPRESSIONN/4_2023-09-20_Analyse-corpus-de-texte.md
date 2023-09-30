@@ -1,4 +1,4 @@
-	
+
 
 --> Pts de vue : Voyageurs != résident
 --> Découverte de paysages --> Campagne / Ville / Désert
@@ -24,3 +24,4 @@
 --> "" "" "" "" ""  de la culture de l'autre
 --> Critique        "" "" "" "" "" "" "" "" "" ""
 
+[](2023-09-26)

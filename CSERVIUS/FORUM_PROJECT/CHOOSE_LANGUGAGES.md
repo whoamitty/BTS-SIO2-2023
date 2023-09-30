@@ -38,8 +38,8 @@ Je ne mentirais pas sur le fait que chatgpt m'as beaucoup aidé
 | **Django**      | Python     | HTML, CSS, JavaScript | Python            |       B       | PostgreSQL, MySQL, etc. | Élevée      | [Documentation Django](https://docs.djangoproject.com/)                                  |
 | **Flask**       | Python     | HTML, CSS, JavaScript | Python            |       B       | PostgreSQL, MySQL, etc. | Modérée     | [Documentation Flask](https://flask.palletsprojects.com/en/2.1.x/)                       |
 
-
 <br>
+
 # Synthétique +++
 
 | Framework             | HTML/CSS/JS | Front-end | Back-end | BDD | Évolutivité | Documentation | Maintenance facile | Pour débutant |
@@ -55,6 +55,7 @@ Je ne mentirais pas sur le fait que chatgpt m'as beaucoup aidé
 | 9 Slim                |     ✅      |    ✅     |    ✅    | ✅  |     ❌      |      ❌       |         ❌         |      ✅       |
 | 10 Django             |     ✅      |    ✅     |    ✅    | ✅  |     ✅      |      ✅       |         ✅         |      ❌       |
 | 11 Flask              |     ✅      |    ✅     |    ✅    | ✅  |     ❌      |      ❌       |         ❌         |      ✅       |
+
 
 
 
