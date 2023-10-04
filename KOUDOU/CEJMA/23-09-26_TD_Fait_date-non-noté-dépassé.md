@@ -46,7 +46,7 @@ Oui les entreprises ont le droit de refuser un audit d'un éditeur de logiciel, 
 __c )
 De quelles manières peut être réalisé cet audit de l'éditeur d'un logiciel ?__
 <br>
-
+<br>
 ***1. Définir l'objectif de l'audit interne***
 
 La première étape consiste donc à déterminer un objectif.
@@ -55,7 +55,7 @@ vérifier la conformité à un référentiel et détecter les non-conformités 
 analyser l'efficacité du système ;
 identifier les points d'amélioration ; capitaliser sur les points forts.
 <br>
-
+<br>
 
 ***2. Choisir les auditeurs***
 
