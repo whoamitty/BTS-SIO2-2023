@@ -1,4 +1,6 @@
-<u><strong>1) Quels sont les enjeux de la gestion des actifs informatiques ?</u></strong>
+<u><strong>
+1) Quels sont les enjeux de la gestion des actifs informatiques ?
+</u></strong>
 <br>
 Les enjeux sont :
 - Le respect des clauses de contrat pour ne pas avoir de sanction vis à vis des éditeur/fournisseurs
@@ -11,7 +13,9 @@ ou en forçant les utilisateurs à utiliser des mots de passe robustes.
 <br>
 ****
 <u><strong>
+
 2) A partir de l'article du site Web de Village de la justice sur l'audit de licence logiciel, répondez aux questions suivantes ?
+
 </strong></u>
 <br>
 
