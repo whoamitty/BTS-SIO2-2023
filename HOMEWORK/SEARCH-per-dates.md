@@ -13,5 +13,8 @@ Assignment given on 2023/09/21
 
 - [x] [2023-10-02_CSERVIUS_sql](HOMEWORK/CSERVIUS/2023-10-02.md)
 - [x] [2023-10-02_CGE_synthèse](HOMEWORK/CGE/2023-10-04.md)
+<<<<<<< HEAD
 [2023-10-09_koudou_CYBER](HOMEWORK/KOUDOU/CYBER/23-10-09.md)
 [23-10-10_English](HOMEWORK/English/23-10-10)
+[2023-10-09_koudou_CYBER](HOMEWORK/koudou/CYBER/23-10-09.md)
+‎‎ 
