@@ -10,7 +10,9 @@ ou en forçant les utilisateurs à utiliser des mots de passe robustes.
 <br>
 <br>
 ****
-<u><strong>2) A partir de l'article du site Web de Village de la justice sur l'audit de licence logiciel, répondez aux questions suivantes ?</strong></u>
+<u><strong>
+2) A partir de l'article du site Web de Village de la justice sur l'audit de licence logiciel, répondez aux questions suivantes ?
+</strong></u>
 <br>
 
 __a)
