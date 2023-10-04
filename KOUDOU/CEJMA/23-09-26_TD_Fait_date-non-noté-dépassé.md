@@ -99,8 +99,11 @@ Quelles sont les recommandations de
 ~~l'auteure~~(l'auditeur je pense)
 aux organisations pour permettre une meilleure gestion de ses actifs logiciels (Software Asset Management - SAM) ?__
 <br>
+
 Suivre régulièrement les évolutions de votre parc informatique, en réalisant des inventaires des matériels, des logiciels installés et utilisés sur les serveurs et postes de travail, et des licences, ainsi que la relation avec la facturation ;
 <br>
+
 Procéder à une sensibilisation de votre personnel à l’égard des risques qu’implique une utilisation non-autorisée des logiciels ;
 <br>
+
 Être plus proactif en réalisant des audits à blanc ou des analyses annuelles des risques pour certains éditeurs « sensibles ».
