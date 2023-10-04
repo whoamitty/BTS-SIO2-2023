@@ -56,6 +56,7 @@ analyser l'efficacité du système ;
 identifier les points d'amélioration ; capitaliser sur les points forts.
 <br>
 
+
 ***2. Choisir les auditeurs***
 
 La réussite d'un audit dépend du choix de son auditeur.
