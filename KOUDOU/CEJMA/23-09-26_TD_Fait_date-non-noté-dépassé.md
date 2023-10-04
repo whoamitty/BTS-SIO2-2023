@@ -48,6 +48,7 @@ De quelles manières peut être réalisé cet audit de l'éditeur d'un logiciel 
 <br>
 
 ***1. Définir l'objectif de l'audit interne***
+
 La première étape consiste donc à déterminer un objectif.
 De manière générale, l'audit interne s'appuie sur quatre objectifs principaux :
 vérifier la conformité à un référentiel et détecter les non-conformités ;
