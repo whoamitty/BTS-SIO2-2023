@@ -11,7 +11,9 @@ ou en forçant les utilisateurs à utiliser des mots de passe robustes.
 <br>
 <br>
 <br>
-****
+
+----
+
 <u><strong>
 
 2) A partir de l'article du site Web de Village de la justice sur l'audit de licence logiciel, répondez aux questions suivantes ?
@@ -28,7 +30,8 @@ Les enjeux sont:
 <br>
 <br>
 <br>
-****
+
+----
 
 __b )
 Les entreprises peuvent-elles refuser un audit d'un éditeur de logiciel.__
@@ -37,7 +40,7 @@ Oui les entreprises ont le droit de refuser un audit d'un éditeur de logiciel, 
 <br>
 <br>
 <br>
-****
+----
 
 __c )
 De quelles manières peut être réalisé cet audit de l'éditeur d'un logiciel ?__
