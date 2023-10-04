@@ -75,6 +75,7 @@ Il s'agit, en premier lieu, de définir les services et les activités à audite
 ‎‎<br>
 Pendant la préparation de l'audit interne, l'auditeur prend connaissance des documents qui lui ont été remis, afin de mieux comprendre et d'analyser le fonctionnement global de l'entreprise. Il peut s'agir des référentiels normatifs, des rapports de l'audit précédent et des manuels qualité.
 <br>
+‎‎<br>
 
 ***4. Réaliser l'audit interne***
 
@@ -86,6 +87,7 @@ C'est essentiel pour l'auditeur de se rendre sur le lieu de travail de l'audité
 ‎‎<br>
 Il ne faut pas perdre de vue que l'objectif de l'audit est d'évaluer tout en allant vers une démarche d'amélioration continue. Il est donc important de terminer sur une touche positive afin de motiver l'audité à vouloir s'améliorer.
 ‎‎ <br>
+<br>
 
 ***5. Mettre en place les actions correctives***
 
