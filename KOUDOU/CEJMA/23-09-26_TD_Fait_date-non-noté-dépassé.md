@@ -40,6 +40,7 @@ Oui les entreprises ont le droit de refuser un audit d'un éditeur de logiciel, 
 <br>
 <br>
 <br>
+
 ----
 
 __c )
@@ -90,7 +91,8 @@ Un rapport de suivi peut aussi être rédigé et délivré aux intervenants.
 <br>
 <br>
 <br>
-****
+
+----
 
 __d )
 Quelles sont les recommandations de
