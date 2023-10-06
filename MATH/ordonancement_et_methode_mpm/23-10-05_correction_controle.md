@@ -29,3 +29,4 @@ Correction contrôle ordonnancement
 | G     | ❌        |
 
 
+![](MATH/ordonancement_et_methode_mpm/Pasted%20image%2020231005171727.png)

@@ -17,12 +17,14 @@ Assignment given on 2023/09/21
 [2023-10-09_koudou_CYBER](HOMEWORK/KOUDOU/CYBER/23-10-09.md)
 [23-10-10_English](HOMEWORK/English/23-10-10)
 
+[23-10-09_CSERVIUS_dev](/CSERVIUS/23-10-09)
+
 individual, teacher asked me
 [23-10-11_CGE_plan-synthese-mercredi](HOMEWORK/CGE/23-10-11_CGE.md)‎
 
 
 
-## WITHOUT DATE
+## WITHOUT DEADLINE
 #### Forum project
 1. 23-10-05 make api client
 2. 
