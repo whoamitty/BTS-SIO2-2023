@@ -10,6 +10,7 @@ Correction contrôle ordonnancement
 |   F    |   4   | C,E  |
 |   G    |   1   | B,F  |
 
+
 <u>Niveu de chaue sommet</u>
 
 | Niveau | 0   | 1     | 2   | 3   |

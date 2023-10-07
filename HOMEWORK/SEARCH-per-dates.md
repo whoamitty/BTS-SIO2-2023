@@ -22,6 +22,7 @@ Assignment given on 2023/09/21
 individual, teacher asked me
 [23-10-11_CGE_plan-synthese-mercredi](HOMEWORK/CGE/23-10-11_CGE.md)‎
 
+[23-10-13_vlan](HOMEWORK/KOUDOU/23-10-13)
 
 
 ## WITHOUT DEADLINE
