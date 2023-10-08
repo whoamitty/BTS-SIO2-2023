@@ -7,6 +7,10 @@ YOU WILL HAVE ALL EXO, ALL SOLUCE, if I can 😅.
 and there is it.
 
 
+###### Tags: #vlan #koudou #reseau  
+
+<br>
+<br>
 I let you with Tim Peters
 
 
