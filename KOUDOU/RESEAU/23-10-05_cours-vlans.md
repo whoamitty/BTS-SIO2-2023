@@ -1,3 +1,5 @@
+#reseau #koudou #vlan
+
 #                     CHAP1:   LES VLANS
 
 Les vlans permettent de créer des réseaux logiques isolés dans un réseau physique limitant les diffusions de broadcast et optimisant la gestion de la bande passante.
@@ -16,7 +18,7 @@ Mais avant d'aller plus loin , nous allons expliquer comment les broadcast parvi
 En effet, il existe deux types de broadcast:
 
 1) ***Les broadcast de niveau 3***
-Exemple adresse IP=a.b.c.255/24
+   Exemple adresse IP=a.b.c.255/24
 
 <br>
 
