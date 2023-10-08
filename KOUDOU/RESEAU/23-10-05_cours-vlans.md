@@ -108,7 +108,7 @@ Il existe 3 types de VLANS:
   Les VLANS 1004 sont utilisés pour le trafic de liaison des protocoles de gestion.
   Les VLANS 1005 sont utilisés pour la trafic de liaison de la sécurité.
   <br>
-  
+    
 - ***Les VLANS étendus :***
   Les VLANS étendus sont disponibles uniquement sur des commutateurs qui prennet en charge le protocole VLAN étendu(VLAN TRUNKING PROTOCOL - $VTP_V3$)
   
