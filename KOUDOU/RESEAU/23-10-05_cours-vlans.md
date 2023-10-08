@@ -19,8 +19,7 @@ Mais avant d'aller plus loin , nous allons expliquer comment les
 broadcast parviennent à polluer notre réseau.  
 En effet, il existe deux types de broadcast :*** 
 
-1) ***Les broadcast de niveau 3***
-
+1) ***Les broadcast de niveau 3***  
    Exemple adresse IP=a.b.c.255/24
 2) ***Les broadcast de niveau 2 = cas des adresses Macs.***
 <br>
