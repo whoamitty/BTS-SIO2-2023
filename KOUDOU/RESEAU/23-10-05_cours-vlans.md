@@ -100,7 +100,8 @@ Il existe 3 types de VLANS:
 - Les VLANS standards sont disponibles sur tous les commutateurs. Ces VLANS  sont utilisés pour la segmentation de base et la gestion du trafic de données sur un réseau local.
   Les VLANS standards peuvent être créés, supprimés et modifiés par les administrateurs réseau.
 <br>
-- ***Les VLANS réservés*** :
+
+- ***Les VLANS réservés :***
   Les VLANS réservés ont des fonctions spéciales et sont disponibles sur tous les commutateurs.
   Les VLANS 1002 sont utilisés pour le trafic de liaison entre les commutateurs.
   Les VLANS 1003 sont utilisés pour le trafic de liaison de la voix.
