@@ -132,8 +132,8 @@ Il existe 3 types de VLANS:
 Par défaut, tous les ports sont dans le VLAN1.
 <br>
 
-Pour mettre le port et donc un poste client dans un VLAN  
-différent, il va falloir:
+Pour mettre le port et donc un poste client dans un VLAN différent,  
+il va falloir:
 
 - Créer le VLAN dans la VLAN DATABASE.
 - Afficher un port dans ce VLAN.
