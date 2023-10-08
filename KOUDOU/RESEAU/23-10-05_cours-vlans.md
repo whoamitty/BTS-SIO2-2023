@@ -9,6 +9,7 @@ Ils sont définis dans le RFC 2674. C'est un outil essentiel pour améliorer la 
 
 >[!IMPORTANT]
 >***Question de contrôle potentiel***
+>
 >Comment les vlans peuvent nous aidés à améliorer la
 >performance de notre réseau local ?
 
