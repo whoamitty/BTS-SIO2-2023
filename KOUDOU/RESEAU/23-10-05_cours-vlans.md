@@ -25,9 +25,9 @@ En effet, il existe deux types de broadcast :***
 <br>
 
 >[!IMPORTANT]
->***Question de contrôle potentiel***
+>***Question de contrôle potentiel***  
 >Que va faire un switch lorsqu'il reçoit un broadcast de niveau
->2?
+>2?  
 >  
 > 
 >Réponse: Il va le diffuser sur tout les ports quel que soit les
