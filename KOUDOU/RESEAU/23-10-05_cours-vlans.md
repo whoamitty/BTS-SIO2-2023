@@ -30,9 +30,13 @@ En effet, il existe deux types de broadcast :***
 >
 >Que va faire un switch lorsqu'il reçoit un broadcast de niveau
 >2?
+>  
+> 
+>Réponse: Il va le diffuser sur tout les ports quel que soit les
+>adresses IP.  
+>C'est tout à fait normal parce qu'un switch ne regarde pas la
+>couche 3 du modèle OSI.
 
-Réponse: Il va le diffuser sur tout les ports quel que soit les adresses IP.  
-C'est tout à fait normal parce qu'un switch ne regarde pas la couche 3 du modèle OSI.
 
 ## Les avantages des VLANS 
 
