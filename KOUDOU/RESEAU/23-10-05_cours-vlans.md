@@ -40,7 +40,7 @@ En effet, il existe deux types de broadcast :***
 
 <br>
 
-### Les VLANS présentent de nombreux avantages dans la gestion d'un réseau local :
+### Les VLANS présentent de nombreux <br>avantages dans la gestion d'un réseau local :
 
 <br>
 
