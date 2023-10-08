@@ -45,37 +45,48 @@ En effet, il existe deux types de broadcast :***
 <br>
 
 #### 1) Réduction des diffusions de broadcast
-Les VLANS permettent de limiter les diffusions de broadcast en isolant les groupes d'utilisateurs dans des réseaux 
-logiques distinctes. Chaque groupe d'utilisateur ne peut communiquer qu'avec des utilisateurs de même VLAN. 
+Les VLANS permettent de limiter les diffusions de broadcast en  
+isolant les groupes d'utilisateurs dans des réseaux  
+logiques distinctes.  
+Chaque groupe d'utilisateur ne peut communiquer qu'avec des utilisateurs de même VLAN.  
 Ce qui réduit considérablement les diffusions de broadcast sur l'ensemble du réseau. 
 
 <br>
 
 #### 2) Optimisation de la bande passante 
-En limitant les diffusions de broadcast, les VLANS permettent, d'optimiser la bande passante du réseau. 
-Cela permet d'améliorer les performances et de réduire les temps de latence, en particulier dans les réseaux à fortes charges.
+En limitant les diffusions de broadcast, les VLANS permettent,  
+d'optimiser la bande passante du réseau.  
+Cela permet d'améliorer les performances et de réduire les  
+temps de latence, en particulier dans les réseaux à fortes  
+charges.
 
 <br>
 
 #### 3) Gestion des utilisateurs par fonction ou par département
-Les VLANS permettent de regrouper les utilisateurs pr fonction ou par département . 
-Ce qui facilite la gestion du réseau. Les administrateurs peuvent définir des politiques de sécurité, de qualité de service 
-ou de bande passante pour chaque VLAN en fonction des besoins des utlisateurs.
+Les VLANS permettent de regrouper les utilisateurs pr fonction ou par département .  
+Ce qui facilite la gestion du réseau. Les administrateurs  
+peuvent définir des politiques de sécurité,  
+de qualité de service ou de bande passante pour chaque VLAN  
+en fonction des besoins des utlisateurs.
 
 <br>
 
 #### 4) Amélioration de la securité 
-Les VLANS permettent également d'améliorer la sécurité en limitant l'accès aux ressources du réseau.
-Chaque VLAN est considéré comme un réseau distinct, ce qui permet de définir des politiques de sécurité spécifiques 
+Les VLANS permettent également d'améliorer la sécurité en  
+limitant l'accès aux ressources du réseau.  
+Chaque VLAN est considéré comme un réseau distinct, ce qui  
+permet de définir des politiques de sécurité spécifiques   
 pour chaque groupe d'utilisateurs.
 
 <br>
 
 #### EN RÉSUMÉ:
 
-Les VLANS sont un moyen efficace de limiter les diffusions de broadcast, d'optimiser la bande passante, de faciliter 
-la gestion des utilisateurs et d'améliorer la securité du réseau.
-En comprenant les avantages des VLANS, vous pouvez optimiser la performance de votre réseau local.
+Les VLANS sont un moyen efficace de limiter les diffusions de  
+broadcast, d'optimiser la bande passante, de faciliter  
+la gestion des utilisateurs et d'améliorer la securité du réseau.  
+En comprenant les avantages des VLANS, vous pouvez  
+optimiser la performance de votre réseau local.
 
 <br>
 
