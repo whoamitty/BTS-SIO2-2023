@@ -22,9 +22,6 @@ En effet, il existe deux types de broadcast :
 1) ***Les broadcast de niveau 3***
 
    Exemple adresse IP=a.b.c.255/24
-
-<br>
-
 2) ***Les broadcast de niveau 2 = cas des adresses Macs.***
 
 
