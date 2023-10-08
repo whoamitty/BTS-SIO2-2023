@@ -1,5 +1,4 @@
-#### #reseau #koudou #vlan
-
+###### #reseau #koudou #vlan 
 
 #                     CHAP1:   LES VLANS
 
@@ -14,12 +13,12 @@ Ils sont définis dans le RFC 2674. C'est un outil essentiel pour améliorer la 
 >Comment les vlans peuvent nous aidés à améliorer la
 >performance de notre réseau local ?
 
-Sans plus tarder, nous allons parler, énumérer les avantages et la configuration des vlans.
-Mais avant d'aller plus loin , nous allons expliquer comment les broadcast parviennent à polluer notre réseau.
-En effet, il existe deux types de broadcast:
+Sans plus tarder, nous allons parler, énumérer les avantages et  la configuration des vlans.  
+Mais avant d'aller plus loin , nous allons expliquer comment les  broadcast parviennent à polluer notre réseau.  
+En effet, il existe deux types de broadcast :
 
 1) ***Les broadcast de niveau 3***
-   
+
    Exemple adresse IP=a.b.c.255/24
 
 <br>
