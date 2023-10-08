@@ -2,7 +2,9 @@
 
 #                     CHAP1:   LES VLANS
 
-Les vlans permettent de créer des réseaux logiques isolés dans un réseau physique limitant les diffusions de broadcast et optimisant la gestion de la bande passante.
+Les vlans permettent de créer des réseaux logiques isolés dans  
+un réseau physique limitant les diffusions de broadcast et   
+optimisant la gestion de la bande passante.  
 Ils sont définis dans le RFC 2674. C'est un outil essentiel pour améliorer la performance du réseau local.
 
 <br>
