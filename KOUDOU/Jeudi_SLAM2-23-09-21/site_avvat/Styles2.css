@@ -1,7 +1,69 @@
 
-*{box-sizing: border-box}
+/* *{box-sizing: border-box} */
 
-body{margin:10;overflow:hidden}
+body{
+	margin:10;	
+	display:flex;
+	
+}
+
+
+
+
+#caroussel{
+    width: 889px;
+    overflow:hidden;
+    border: 5px solid #333;
+    border-radius: 1%;
+}
+
+.images{
+    display:flex;
+    animation-duration: 50s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes mesImages {
+5%{
+	transform: translateX(0);
+}
+10% {
+	transform: translateX(-640px);
+}
+20% {
+	transform: translateX(-1280px);
+}
+30% {
+	transform: translateX(-1920px);
+}
+40% {
+	transform: translateX(-2560px);
+}
+50% {
+	transform: translateX(-3200px);
+}
+60% {
+	transform: translateX(-3840px);
+}
+
+70%{
+	transform: translateX(-4480px);
+}
+
+80%{
+	transform: translateX(-5120px);
+}
+
+    90%{
+        transform: translateX(-5760px);
+    }
+
+}
+
+
 
 /*	
 @keyframes animation_slide {
@@ -38,6 +100,8 @@ body{margin:10;overflow:hidden}
 <img src="images/im9.png" alt/>
    */
 
+/*
+Bad code
 @keyframes animation_slide {
 	
 0% {transform:translatex(0)}
@@ -73,26 +137,24 @@ body{margin:10;overflow:hidden}
 
 	
 	}
-
-	
+*/
+/* 	
 div img{
-	
-pointer-events:none;
-height:50vh;
-object-fit:contain;
-float:left;
-width:10%
-	
-	}
+	pointer-events:none;
+	height:50vh;
+	object-fit:contain;
+	float:left;
+	width:10%
+} */
 	
 	
-div{
+/* div {
 position:relative;
 width:100%;
 margin:0;
 animation:80s animation_slide infinite; 
 	
-}
+} */
 
 @media (min-width:62.75rem){
 		
@@ -103,3 +165,23 @@ div img{
 	}
 		
 	}
+
+
+
+/*
+i=0 0px
+i=1 640px
+i=2 1280px
+i=3 1920px
+i=4 2560px
+i=5 3200px
+i=6 3840px
+i=7 4480px
+i=8 5120px
+i=9 5760px
+i=10 6400px
+
+
+*/
+
+

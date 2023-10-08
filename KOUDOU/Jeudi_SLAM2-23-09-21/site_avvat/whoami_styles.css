@@ -1,0 +1,91 @@
+/* Eléments principaux de la page */
+body
+{
+background: url('images/fond_jaune.png');
+font-family: 'Trebuchet MS', Arial, sans-serif;
+color: #181818;
+
+display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #ddd; 
+
+}
+
+
+
+#caroussel{
+    width: 889px;
+    overflow:hidden;
+    border: 5px solid #333;
+    border-radius: 1%;
+    
+}
+
+
+.images{
+    display:flex;
+    animation-duration: 50s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mesImages {
+    5%{
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(-889px);
+    }
+
+    20% {
+        transform: translateX(-1778px);
+    }
+
+    30% {
+        transform: translateX(-2667px);
+    }
+
+    40% {
+        transform: translateX(-3556px);
+    }
+
+
+    50% {
+        transform: translateX(-4445px);
+    }
+
+
+    60% {
+        transform: translateX(-5334px);
+    }
+
+    70%{
+        transform: translateX(-6223px);
+    }
+
+    80%{
+        transform: translateX(-7112px);
+    }
+
+    90%{
+        transform: translateX(-8001px);
+    }
+
+}
+
+/**
+i=0 0
+i=1 -889
+i=2 -1778
+i=3 -2667
+i=4 -3556
+i=5 -4445
+i=6 -5334
+i=7 -6223
+i=8 -7112
+i=9 -8001
+i=10 -8890 */

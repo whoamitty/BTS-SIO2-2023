@@ -4,7 +4,30 @@ body
 background: url('images/fond_jaune.png');
 font-family: 'Trebuchet MS', Arial, sans-serif;
 color: #181818;
+
+/* display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #ddd; */
+
 }
+
+
+
+/* .images{
+    display:flex;
+
+}
+
+#caroussel{
+        width: 889px;
+        overflow:auto;
+        border: 2px solid #333;
+
+} */
+
+
 #bloc_page
 {
     width: 900px;
@@ -16,11 +39,14 @@ color: #181818;
     font-weight: normal;
     text-transform: uppercase;
     }
-    /* Header */
+    
+    
+/* Header */
 header
 {
 background: url('images/separateur.png') repeat-x bottom;
 }
+
 #titre_principal
 {
 display: inline-block;
@@ -43,6 +69,7 @@ font-size: 1.1em;
 margin-top: 0px;
 font-weight: normal;
 }
+
 /* Navigation */
 nav
 {
@@ -74,8 +101,7 @@ border-bottom: 3px solid #760001;
 
 
 /* Footer */
-footer
-{
+footer{
 background: url('images/ico_top.png') no-repeat top center,
 url('images/separateur.png') repeat-x top, url('images/ombre.png')
 repeat-x top;
@@ -120,8 +146,10 @@ width: 48%;
 list-style-image: url('images/ico_liensexterne.png');
 padding-left: 2px;
 }
+
 #mes_amis a
 {
 text-decoration: none;
 color: #760001;
 }
+
