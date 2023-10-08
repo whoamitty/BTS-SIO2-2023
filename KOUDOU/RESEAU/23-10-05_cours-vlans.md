@@ -1,4 +1,5 @@
-#### #reseau #koudou #vlan
+#### tags : reseau koudou vlan
+
 
 #                     CHAP1:   LES VLANS
 
