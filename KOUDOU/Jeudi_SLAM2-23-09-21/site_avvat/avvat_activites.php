@@ -4,7 +4,12 @@
     <head>
      <meta charset="utf-8" />
      <link rel="stylesheet"  href="whoami_styles.css">
-    <style>  a{text-decoration:none } </style>
+	<style>
+		a {
+			text-decoration: none
+		}
+	</style>
+	
 	 <title> CARROUSEL </title>
     </head>
         <body>

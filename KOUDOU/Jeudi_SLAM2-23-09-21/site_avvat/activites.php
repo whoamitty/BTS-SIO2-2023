@@ -1,42 +1,79 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="Style01.css">
-  <link rel="stylesheet" type="text/css" href="Styles.css">
-  <link rel="stylesheet" type="text/css" href="Styles1.css">
+  <!-- <link rel="stylesheet" type="text/css" href="Style01.css"> -->
+  <!-- centre l'image de font en bas (chelou ?)-->
+
+  <!-- <link rel="stylesheet" type="text/css" href="Styles.css"> -->
+  <!-- background existe  -->
+
+  <link rel="stylesheet" type="text/css" href="./Styles1.css">
+  <!-- background n'existe pas et quasiment même code que style.css, il faut choisir -->
+
   <link rel="stylesheet" type="text/css" href="Styles2.css">
+  <!-- gère le style de activites.php -->
+
+  <!-- <link rel="stylesheet" type="text/css" href="whoami_styles.css"> -->
+
+  
   <style>
     a {
       text-decoration: none
     }
   </style>
   <title>A V V A T - ACCUEIL</title>
-</head <body>
-<center>
+</head>
+
+<body>
+
+
+
   <?php
   include("menu.php");
   ?>
-</center>
-
-<div id="caroussel">
-  <div class="images">
-    <img src="images/im1.png"alt/>
-    <img src="images/im2.png" alt/>
-    <img src="images/im3.png" alt/>
-    <img src="images/im4.png" alt/>
-    <img src="images/im5.png" alt/>
-    <img src="images/im6.png" alt/>
-    <img src="images/im7.png" alt/>
-    <img src="images/im8.png" alt/>
-    <img src="images/im9.png" alt/>
-    <img src="images/im1.png" alt/>
-  </div>
-</div>
 
 
-<footer>
+
+  <center>
+<!-- 
+  <div id="caroussel">
+          <div class="images">
+
+	          <img src="images/img_avvat1.png" alt="image1 ">	              
+				   <img src="images/img_avvat2.png" alt="image2 ">
+				   <img src="images/img_avvat3.png" alt="image3 ">	              
+				   <img src="images/img_avvat4.png" alt="image4 ">
+				   <img src="images/img_avvat5.png" alt="image5 ">	              
+				   <img src="images/img_avvat6.png" alt="image6 ">
+				   <img src="images/img_avvat7.png" alt="image7 ">	              
+				   <img src="images/img_avvat8.png" alt="image8 ">
+				   <img src="images/img_avvat9.png" alt="image9 ">	              
+				   <img src="images/img_avvat10.png" alt="image10 ">
+				   	
+				</div> -->
+
+    <div id="caroussel">
+      <div class="images">
+        <img src="images/im1.png" alt />
+        <img src="images/im2.png" alt />
+        <img src="images/im3.png" alt />
+        <img src="images/im4.png" alt />
+        <img src="images/im5.png" alt />
+        <img src="images/im6.png" alt />
+        <img src="images/im7.png" alt />
+        <img src="images/im8.png" alt />
+        <img src="images/im9.png" alt />
+        <img src="images/im1.png" alt />
+
+      </div>
+    </div>
+
+  </center>
+
+
   <footer>
     <hr>
     <div id="tweet">
@@ -53,6 +90,6 @@
       </ul>
     </div>
   </footer>
-  </body>
+</body>
 
 </html>

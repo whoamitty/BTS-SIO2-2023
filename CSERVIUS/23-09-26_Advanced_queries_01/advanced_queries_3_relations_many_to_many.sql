@@ -11,8 +11,9 @@ SELECT *
 FROM utilisateur
 JOIN utilisateur_aliment 
 	ON utilisateur.id = utilisateur_aliment.utilisateur_id
-JOIN Aliment
+JOIN aliment
 	ON aliment.id = utilisateur_aliment.aliment_id
+
 
 -- Exercice : 
 -- voir tous les aliments sélectionnés par les utilisateurs dont l’adresse e-mail est une adresse Gmail (Utilisez votre vue crée lors des exercices précédents).
