@@ -6,7 +6,7 @@
 <br>
 
 Assignment given on 2023/09/21
-[2023-09-27_koudou1_3_AVVAT](KOUDOU/2023-09-27.md)
+[2023-09-27_koudou1_3_AVVAT](KOUDOU/Jeudi_SLAM2-23-09-21/site_avvat/2023-09-27.md)
 
 - [x] [2023-09-07_CGE1_5](./CGE/5_2023-09-20_Les-aventuriers-voiyageurs_devoirpour_2023-09-27/2023-09-26.md)
 
@@ -17,15 +17,20 @@ Assignment given on 2023/09/21
 [2023-10-09_koudou_CYBER](HOMEWORK/KOUDOU/CYBER/23-10-09.md)
 [23-10-10_English](HOMEWORK/English/23-10-10)
 
-[23-10-09_CSERVIUS_dev](/CSERVIUS/23-10-09)
+- [x] [23-10-09_CSERVIUS_dev](/CSERVIUS/23-10-09)
 
 individual, teacher asked me
 [23-10-11_CGE_plan-synthese-mercredi](HOMEWORK/CGE/23-10-11_CGE.md)‎
 
 [23-10-13_vlan](HOMEWORK/KOUDOU/23-10-13)
 
+[23-10-17_KOUDOU_OWASP](23-10-17) :
+    - [KOUDOU/owasp-presentation-v1.1.pdf](KOUDOU/owasp-presentation-v1.1.pdf)
+
+[23-10-11_English-letter](HOMEWORK/English/23-10-17.md)
+[23-10-18_CGE_syntese](/HOMEWORK/CGE/23-10-18_CGE_synthese)
 
 ## WITHOUT DEADLINE
 #### Forum project
 1. 23-10-05 make api client
-2. 
+2.  

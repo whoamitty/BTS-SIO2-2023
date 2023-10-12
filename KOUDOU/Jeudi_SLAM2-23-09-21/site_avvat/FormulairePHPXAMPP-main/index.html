@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang =en >
+<head>
+    <title>Inscription</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <link rel="stylesheet" media="screen" type="text/css" href="maf.css"/>
+    
+</head>
+
+<body>
+    <header>
+     <nav>
+        <ul>
+            <li> <a href="https://github.com/AzizAbd"> Home </a> </li>
+             <li> <a href ="#">News</a> </li>
+             <li> <a href ="#">Contact</a> </li>
+        </ul>
+     </nav>
+    </header>
+
+    <form action ="insert.php" method="GET">
+        <fieldset>
+        <legend>Inscription</legend>
+        <label>Nom</label> <input type ="text" name ="nom" placeholder="votre nom ici"/> <br>
+        <label>Prénom</label> <input type ="text" name = "prenom" placeholder="votre Prénom ici"/> <br>
+        <label>tel</label> <input type ="number" name="phone" placeholder="votre numéro de téléphone ici"/> <br>
+        <label>Email</label> <input type ="email" name="mail" placeholder="votre mail ici"/> <br>
+        <label>Sexe</label> <input type ="radio" name="gender" Value="Homme" placeholder="choisir si un homme"/> Homme <input type ="radio" name="gender" Value="Femme" placeholder="choisir si femme" />Femme
+        <input type="submit" value ="Valider"/>
+         
+
+    </fieldset>
+        
+    </form>
+
+</body>
+
+
+</html>

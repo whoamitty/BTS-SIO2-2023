@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -12,6 +14,9 @@
     }
   </style>
   <title>A V V A T - ACCUEIL</title>
+
+
+  
 </head>
 
 <body background="#F8CD99">
@@ -66,7 +71,7 @@ avvat" id="logo" />
         </p>
       </aside>
     </center>
-  </section>
+  </section>  
 </div>
 
 

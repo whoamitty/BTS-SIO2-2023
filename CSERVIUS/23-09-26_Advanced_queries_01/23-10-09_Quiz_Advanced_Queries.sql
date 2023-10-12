@@ -17,6 +17,10 @@ SELECT * FROM film WHERE id = 1;
 SELECT * FROM film ORDER BY nom = "Skyfall";
 
 <Votre réponse ici>
+-- a)
+SELECT * FROM film WHERE nom LIKE "Skyfall";
+
+
 
 -------------
 -- Question 2
@@ -29,8 +33,13 @@ SELECT * FROM film ORDER BY nom = "Skyfall";
 -- c) Titanic uniquement
    
 <Votre réponse ici>
+-- a) Titanic et Skyfall
 
 <Votre requête ici>
+SELECT * FROM film WHERE budget >= 100000000;
+
+
+
 
 -------------
 -- Question 3
@@ -43,8 +52,11 @@ SELECT * FROM film ORDER BY nom = "Skyfall";
 -- c) Titanic et La La Land
 
 <Votre réponse ici>
+-- c) Titanic et La La Land
+
 
 <Votre requête ici>
+SELECT * FROM film WHERE synopsis LIKE "%histoire%";
 
 -------------
 -- Question 4
@@ -57,8 +69,15 @@ SELECT * FROM film ORDER BY nom = "Skyfall";
 -- c) 3
 
 <Votre réponse ici>
+-- c) 3
 
 <Votre requête ici>
+SELECT MAX(id) FROM film; -- ne fonctionne pas forcément
+
+--correction
+SELECT COUNT(*) FROM film; 
+
+
 
 -------------
 -- Question 5
@@ -71,6 +90,8 @@ SELECT * FROM film ORDER BY nom = "Skyfall";
 -- c) SUM, AVE, MAXI, MINI
 
 <Votre réponse ici>
+-- a) SUM, AVG, MAX, MIN
+
 
 -------------
 -- Question 6
@@ -83,8 +104,14 @@ SELECT * FROM film ORDER BY nom = "Skyfall";
 -- c) 3
 
 <Votre réponse ici>
+-- a) 1
 
 <Votre requête ici>
+SELECT COUNT(*) FROM film WHERE note_id < 4;
+
+-- correction
+SELECT COUNT(*) FROM film JOIN note ON note.id = note_id WHERE note.id < 4 ;
+
 
 -------------
 -- Question 7
@@ -97,6 +124,8 @@ SELECT * FROM film ORDER BY nom = "Skyfall";
 -- c) C’est une table qui regroupe toutes les vues présentes dans une BDD
 
 <Votre réponse ici>
+-- b) C’est une table qui permet de relier deux tables ayant une relation plusieurs à plusieurs entre elles
+
 
 -------------
 -- Question 8
@@ -109,6 +138,21 @@ SELECT * FROM film ORDER BY nom = "Skyfall";
 -- c) La La Land aux USA uniquement
 
 <Votre réponse ici>
+-- b) Titanic en France, USA et Allemagne
+
 
 <Votre requête ici>
+select * from film
+JOIN film_pays_de_sortie ON film_pays_de_sortie.film_id = film.id
+JOIN pays_de_sortie p ON p.id=pays_de_sortie_id;
 
+-- correction mais mas solution fonctionne aussi
+-- on peut partir d'une autre table pour faire les jointures
+SELECT
+   film.nom AS "Nom du film",
+   ps.nom AS "Nom du pays"
+FROM pays_de_sortie ps
+JOIN film_de_sortie fps
+   ON ps.id = fps.pays_de_sortie_id
+JOIN film
+   ON fps.film_id = film.id;
