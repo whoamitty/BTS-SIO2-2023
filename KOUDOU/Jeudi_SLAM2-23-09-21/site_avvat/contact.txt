@@ -1,9 +1,9 @@
 <html>
 <head>
 <title>MERES - Mouvement d'Etude et de Réflexion Spirituelles.</title>
-<link rel="stylesheet" type="text/css" href="styles1.css">
-<link rel="stylesheet" type="text/css" href="styles3.css">
-<link rel="stylesheet" type="text/css" href="formulaire.css">
+<link rel="stylesheet" type="text/css" href="css/styles1.css">
+<link rel="stylesheet" type="text/css" href="css/styles3.css">
+<link rel="stylesheet" type="text/css" href="css/formulaire.css">
 <style>  a{text-decoration:none } </style>
   </head>
 <body><body><SCRIPT LANGUAGE="javascript">

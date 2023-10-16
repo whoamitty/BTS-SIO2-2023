@@ -3,7 +3,7 @@
 <html lang="fr">
     <head>
      <meta charset="utf-8" />
-     <link rel="stylesheet"  href="whoami_styles.css">
+     <link rel="stylesheet"  href="css/whoami_styles.css">
 	<style>
 		a {
 			text-decoration: none

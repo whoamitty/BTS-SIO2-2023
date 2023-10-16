@@ -1,0 +1,46 @@
+conception de la base données inscription_db (SGBD=Mysql):
+/*Par TARGOTO CHRISTIAN du 13 au 20 Mars 2021 à N'djaména au Tchad.*/
+
+create database inscription_db character set 'utf8';
+use inscription_db;
+
+create table tb_eleve(
+matricule varchar(20) primary key,
+prenom varchar(80) not null,
+nom varchar(80) not null,
+sexe varchar(10) not null,
+dateNaissance varchar(50),
+classe varchar(20) not null,
+montantPaye Decimal(8,2),
+quartier varchar(80) not null,
+contacTuteur varchar(30) not null,
+situation_classe varchar(30) not null,
+situation_ecole varchar(30) not null)
+engine=innodb; 
+
+ 
+create table tbHistoriquePaie(
+id int auto_increment primary key,
+matricule varchar(20),
+datePaie datetime,
+montant decimal(8,2) not null)
+engine=innodb;
+
+
+alter table tbHistoriquePaie add constraint fk foreign key(matricule)
+references tb_eleve(matricule);
+
+create table tb_frais(
+classe varchar(20) primary key,
+montant decimal(8,2) not null)
+engine=innodb;
+
+
+alter table tb_eleve add constraint fk2 foreign key(classe)
+references tb_frais(classe);
+
+create view frais_eleve as select matricule,prenom,nom,sexe,dateNaissance,
+                tb_eleve.classe,montantPaye,quartier,contacTuteur,situation_classe,
+               situation_ecole,montant from tb_eleve inner join tb_frais on
+             tb_eleve.classe=tb_frais.classe;
+

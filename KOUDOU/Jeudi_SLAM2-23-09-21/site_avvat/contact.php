@@ -5,8 +5,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="Styles.css">
-  <link rel="stylesheet" type="text/css" href="Styles_contact.css">
+  <link rel="stylesheet" type="text/css" href="css/Styles.css">
+  <link rel="stylesheet" type="text/css" href="css/Styles_contact.css">
   <link rel="stylesheet" type="text/css" href="FormulairePHPXAMPP-main/maf.css">
   <style>
     a {

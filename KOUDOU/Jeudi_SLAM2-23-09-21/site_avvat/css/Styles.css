@@ -1,6 +1,6 @@
 /* Eléments principaux de la page */
 body {
-  background: url('images/fondorange.png');
+  background: url('../images/fondorange.png');
   font-family: 'Trebuchet MS', Arial, sans-serif;
   color: #181818;
 }

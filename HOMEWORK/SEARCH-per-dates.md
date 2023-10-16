@@ -15,7 +15,7 @@ Assignment given on 2023/09/21
 - [x] [2023-10-02_CSERVIUS_sql](HOMEWORK/CSERVIUS/2023-10-02.md)
 - [x] [2023-10-02_CGE_synthèse](HOMEWORK/CGE/23-10-04_CGE.md)
 [2023-10-09_koudou_CYBER](HOMEWORK/KOUDOU/CYBER/23-10-09.md)
-[23-10-10_English](HOMEWORK/English/23-10-10)
+- [x] [23-10-10_English](HOMEWORK/English/23-10-10)
 
 - [x] [23-10-09_CSERVIUS_dev](/CSERVIUS/23-10-09)
 
@@ -24,10 +24,11 @@ individual, teacher asked me
 
 [23-10-13_vlan](HOMEWORK/KOUDOU/23-10-13)
 
-[23-10-17_KOUDOU_OWASP](23-10-17) :
+[23-10-17_KOUDOU_OWASP](HOMEWORK/KOUDOU/23-10-17) :
     - [KOUDOU/owasp-presentation-v1.1.pdf](KOUDOU/owasp-presentation-v1.1.pdf)
 
-[23-10-11_English-letter](HOMEWORK/English/23-10-17.md)
+
+- [x] [23-10-11_English-letter](HOMEWORK/English/23-10-17_email2.md)
 [23-10-18_CGE_syntese](/HOMEWORK/CGE/23-10-18_CGE_synthese)
 
 ## WITHOUT DEADLINE

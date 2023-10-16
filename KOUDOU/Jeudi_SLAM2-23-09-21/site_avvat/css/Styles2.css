@@ -3,7 +3,7 @@
 
 
 body {
-    background: url('images/fondorange.png');
+    background: url('../images/fondorange.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
     min-height: 100%;
