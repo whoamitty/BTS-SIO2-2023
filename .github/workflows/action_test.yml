@@ -1,0 +1,59 @@
+# Test 1 edited by chatgpt
+
+name: Automatisation de la gestion des devoirs
+
+on:
+  issue_comment: # Déclenche l'action lorsqu'un commentaire est ajouté à une issue
+    types:
+      - created
+
+jobs:
+  automate_devoir_status:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Vérifier le commentaire
+      id: check_comment
+      run: |
+        comment_body=$(jq -r .comment.body "$GITHUB_EVENT_PATH")
+        if [[ $comment_body =~ "SLAM-DEVOIR-EMOJI" || $comment_body =~ "SISR-DEVOIR-EMOJI" ]]; then
+          echo "::set-output name=devoir_done::true" # Si l'un des emojis est présent, marquer comme terminé
+        fi
+
+    - name: Vérifier si tout le monde a réagi
+      id: check_reactions
+      run: |
+        issue_number=$(gh issue view "$GITHUB_EVENT_ISSUE" --json "number")
+        slam_reacted=false
+        sisr_reacted=false
+
+        for student in "DevRithus" "GlaudeEdenson" "LeDozo08" "Ralysondossantos" "Yanou56"; do
+          reaction=$(gh issue view "$issue_number" --json "reactions" --json "reactions[?user.login=='$student'].content")
+          if [[ ! -z $reaction ]]; then
+            slam_reacted=true
+          else
+            slam_reacted=false
+            break # Si un étudiant n'a pas réagi, inutile de vérifier les autres
+          fi
+        done
+
+        if [[ $slam_reacted == "true" ]]; then
+          for student in "Johbrt"; do
+            reaction=$(gh issue view "$issue_number" --json "reactions" --json "reactions[?user.login=='$student'].content")
+            if [[ ! -z $reaction ]]; then
+              sisr_reacted=true
+            else
+              sisr_reacted=false
+              break
+            fi
+          done
+        fi
+
+        if [[ $slam_reacted == "true" && $sisr_reacted == "true" ]]; then
+          echo "::set-output name=everyone_reacted::true" # Si tous les élèves des deux groupes ont réagi, considérer que tout le monde a réagi
+        fi
+
+    - name: Mettre à jour le statut du devoir
+      if: steps.check_comment.outputs.devoir_done == 'true' && steps.check_reactions.outputs.everyone_reacted == 'true' # Exécute seulement si l'emoji et les réactions sont présents
+      run: |
+        gh issue edit "$GITHUB_EVENT_ISSUE" --add-label "TERMINÉ"
