@@ -4,7 +4,7 @@ name: Automatisation de la gestion des devoirs
 
 on:
   schedule:
-    - cron: "* 4 * * *" # tous les jours à 4h
+    # - cron: "* 4 * * *" # tous les jours à 4h
   workflow_dispatch:
 
   # issue_comment: # Déclenche l'action lorsqu'un commentaire est ajouté à une issue
