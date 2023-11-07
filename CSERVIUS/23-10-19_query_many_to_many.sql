@@ -98,6 +98,7 @@ WHERE aliment.id = 11;
 */
 
 
+
 -----------
 -- Exercice
 -----------
@@ -111,5 +112,20 @@ WHERE aliment.id = 11;
   
   Comment feriez-vous pour créer cette table et la lier aux utilisateurs ?
 */
+
+CREATE TABLE appareil(
+	  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	  type VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE utilisateur_apareil (
+	  utilisateur_id INT NOT NULL,
+	  apareil_id INT NOT NULL,
+	  FOREIGN KEY (utilisateur_id) REFERENCES utilisateur (id) ON DELETE RESTRICT ON UPDATE CASCADE,
+	  FOREIGN KEY (apareil_id) REFERENCES lieu (id) ON DELETE RESTRICT ON UPDATE CASCADE,
+PRIMARY KEY (utilisateur_id, apareil_id)
+);
+
+
 
 
