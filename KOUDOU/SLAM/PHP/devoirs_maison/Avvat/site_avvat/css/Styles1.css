@@ -1,0 +1,156 @@
+/* Eléments principaux de la page */
+body
+{
+background: url('../images/fond_jaune.png');
+font-family: 'Trebuchet MS', Arial, sans-serif;
+color: #181818;
+
+/* display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #ddd; */
+
+}
+
+
+
+/* .images{
+    display:flex;
+
+}
+
+#caroussel{
+        width: 889px;
+        overflow:auto;
+        border: 2px solid #333;
+
+} */
+
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+    }
+    section h1, footer h1, nav a
+    {
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    }
+    
+    
+/* Header */
+
+header
+{
+background: url('images/separateur.png') repeat-x bottom;
+}
+
+#titre_principal
+{
+display: inline-block;
+}
+header h1
+{
+font-family: 'BallparkWeiner', serif;
+font-size: 2.5em;
+font-weight: normal;
+}
+#logo, header h1
+{
+display: inline-block;
+margin-bottom: 0px;
+}
+header h2
+{
+font-family: Dayrom, serif;
+font-size: 1.1em;
+margin-top: 0px;
+font-weight: normal;
+}
+
+/* Navigation */
+nav
+{
+display: inline-block;
+width: 740px;
+text-align: right;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 15px;
+}
+nav a
+{
+font-size: 1.3em;
+color: #181818;
+padding-bottom: 3px;
+text-decoration: none;
+}
+nav a:hover
+{
+color: #760001;
+border-bottom: 3px solid #760001;
+}
+
+
+/* Footer */
+footer{
+background: url('images/ico_top.png') no-repeat top center,
+url('images/separateur.png') repeat-x top, url('images/ombre.png')
+repeat-x top;
+padding-top: 25px;
+}
+footer p, footer ul
+{
+font-size: 0.8em;
+}
+footer h1
+{
+font-size: 1.1em;
+}
+#tweet, #mes_photos, #mes_amis
+{
+display: inline-block;
+vertical-align: top;
+}
+#tweet
+{
+width: 28%;
+}
+#mes_photos
+{
+width: 35%;
+}
+#mes_amis
+{
+width: 31%;
+}
+#mes_photos img
+{
+border: 1px solid #181818;
+margin-right: 2px;
+}
+#mes_amis ul
+{
+display: inline-block;
+vertical-align: top;
+margin-top: 0;
+width: 48%;
+list-style-image: url('images/ico_liensexterne.png');
+padding-left: 2px;
+}
+
+#mes_amis a
+{
+text-decoration: none;
+color: #760001;
+}
+

@@ -1,0 +1,165 @@
+/* *{box-sizing: border-box} */
+
+
+
+body {
+    background: url('../images/fondorange.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    min-height: 100%;
+}
+
+
+#caroussel {
+    width: 640px;
+    overflow: hidden;
+    border: 5px solid #333;
+    border-radius: 1%;
+
+}
+
+.images {
+    animation-name: mesImages;
+    display: flex;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+
+.images:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes mesImages {
+
+    0%,
+    10% {
+        transform: translateX(0%);
+    }
+
+
+    11%,
+    15% {
+        transform: translateX(-100%);
+    }
+
+
+    20%,
+    25% {
+        transform: translateX(-200%);
+    }
+
+    30%,
+    35% {
+        transform: translateX(-300%);
+    }
+
+
+
+    40%,
+    45% {
+        transform: translateX(-400%);
+    }
+
+
+    50%,
+    55% {
+        transform: translateX(-500%);
+    }
+
+
+    60%,
+    65% {
+        transform: translateX(-600%);
+    }
+
+
+    70%,
+    75% {
+        transform: translateX(-700%);
+    }
+
+
+    80%,
+    85% {
+        transform: translateX(-800%);
+    }
+
+
+    90%,
+    95% {
+        transform: translateX(-900%);
+    }
+
+    100% {
+        transform: translateX(-1000%);
+    }
+}
+
+
+
+
+/* Eléments principaux de la page */
+
+
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: table;
+    width: 100%;
+}
+
+
+
+
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    overflow: hidden;
+    width: 960px;
+
+    margin: 0px auto 40px auto;
+    top: 0px;
+
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+    background: url('images/ico_top.png') no-repeat top center,
+        url('images/separateur.png') repeat-x top,
+        url('images/ombre.png') repeat-x top;
+
+
+    /* position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0; */
+
+}
+
+
+footer {
+    display: table-row;
+    height: 100px;
+    /* à titre d'exemple */
+}

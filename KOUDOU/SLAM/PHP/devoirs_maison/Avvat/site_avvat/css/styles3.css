@@ -1,0 +1,34 @@
+table#sample {
+    background-color:#9900CC;
+    border: solid #000 1px;
+    width: 150px;
+
+}
+
+table#sample td {
+    padding: 0px;
+    border: solid #000 0px;
+
+}
+
+.data {
+    color: #000000;
+    text-align: right;
+    background-color: #CCCCCC;
+
+}
+
+.toprow {
+    font-style: italic;
+    text-align: center;
+    background-color: #9900FF;
+
+}
+
+.gauchcol {
+    font-weight: bold;
+    text-align: left;
+    width: 100px;
+    background-color: #DDDDDD;
+
+}

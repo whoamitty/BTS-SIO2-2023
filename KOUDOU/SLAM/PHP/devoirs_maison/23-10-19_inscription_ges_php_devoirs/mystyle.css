@@ -1,0 +1,38 @@
+/* Created by TopStyle Trial - www.topstyle4.com */
+/*Code écrit du 24 au 26 mars 2021 à N'djaména au Tchad par
+   TARGOTO CHRISTIAN
+   Contact: ct@chrislink.net / 23560316682
+ */
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #3cb371;
+}
+.tab {
+	background-color: white;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+.tab th,td{
+	padding: 5px;
+}
+.bouton{
+	width: 150px;
+	height: 25px;
+	font-size: 17px;
+	background-color: #7fff00;
+}
+.bouton2{
+	width: 330px;
+	height: 25px;
+	font-size: 17px;
+	background-color: #7fff00;
+}
+fieldset{
+	width: 50%;
+	border:3px solid black;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
