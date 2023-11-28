@@ -16,14 +16,16 @@ Non le DSA s'applique seulement aux
 intermédiaires en ligne qui offrent leurs services.
 
 3. Le DSA est-il une contrainte supplémentaire ou une aide pour les petites entreprises ?
-Le DSA est une aide pour les petites entreprises clientes des gros platformes.
-
-
-D'ailleurs les très petites entreprises et
-petites entreprises (moins de 50 salariés et moins de 10 millions de chiffre d’affaires annuel)
-n'atteignant pas 45 millions d'utilisateurs seront exemptées de certaines obligations.
-
-Donc je dirais que le DSA est à la fois une aide et une contrainte supplémentaire.
+   
+   Le DSA est une aide pour les petites entreprises clientes des
+   gros platformes.
+   
+   
+   ***D'ailleurs les très petites entreprises et
+   petites entreprises (moins de 50 salariés et moins de 10 millions de chiffre d’affaires annuel)
+   n'atteignant pas 45 millions d'utilisateurs seront exemptées de certaines obligations.***
+   
+   Donc je dirais que le DSA est à la fois une aide et une contrainte supplémentaire.
 
 Lien :  
 https://www.vie-publique.fr/eclairage/285115-dsa-le-reglement-sur-les-services-numeriques-ou-digital-services-act
