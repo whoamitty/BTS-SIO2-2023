@@ -21,7 +21,8 @@ $recipes[2]= 'Escalope Milanes';
         'author' => 'john.doe@exemple.com',
         'enabled' => true,
     ]
-    ] ; */
+    ] ;
+    */
 
 // $recipe['title'] = 'Cassoulet'
 $recipes = [
