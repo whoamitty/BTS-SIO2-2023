@@ -1,10 +1,9 @@
-
 <?php
 // ouverture d'une connexion à la BDD agenda
 $objetPdo = new PDO('mysql:host=localhost;dbname=agenda', 'root','');
 
 // preparation de la requete d'insertion (SQL)
-$pdostat = $objetPdo->prepare('INSERT INTO contact VALUE (NULL, :nom, :prenom, :tel, :mel)');
+$pdostat = $objetPdo->prepare('INSERT INTO contact (lastName,firstName,phone,mail   ) VALUE (:nom, :prenom, :tel, :mel)');
 
 // On lie chaque marqueur a une valeur
 
@@ -21,7 +20,7 @@ if($insertIsok) {
     $message ='le contact a été  ajouté dans la BDD';
 }
 else {
-    $message ='Echec de l\insertion';
+    $message ='Echec de l\'insertion';
 }
 ?>
 <!DOCTYPE html>

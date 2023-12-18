@@ -33,6 +33,7 @@ VALUES ('Hello', 'World');
 UPDATE `utilisateur` SET prenom = "quentin"
 
 <Votre réponse ici>
+Tous les prénoms seront changés en quentin~?
 
 -- #7 - Mettre à jour un aliment
 <Votre requête ici>

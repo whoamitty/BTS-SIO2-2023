@@ -5,11 +5,7 @@ define('DB_SERVER', 'localhost'); // serveur mysql
 define('DB_SERVER_USERNAME', 'root'); // nom d'utilisateur
 define('DB_SERVER_PASSWORD', ''); // mot de passe
 define('DB_DATABASE', 'formulaire1Koudou'); // nom de la base
-
-
-
 // Connexion au serveur mysql
-
 ?>
 
 
