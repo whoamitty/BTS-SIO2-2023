@@ -1,0 +1,8 @@
+Bdd agenda
+table contact {
+id int(5)
+nom varchar(80)
+prenom varchar(80)
+tel char(15)
+mel varchar(100)
+}

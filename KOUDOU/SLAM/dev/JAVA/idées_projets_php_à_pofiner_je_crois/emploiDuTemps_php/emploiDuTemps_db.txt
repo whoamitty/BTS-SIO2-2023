@@ -1,0 +1,32 @@
+Conception de la base de données emploiDuTemps_db(SGBD=Mysql):
+(Par TARGOTO CHRISTIAN le 27 Mars 2021)
+
+create database emploiDuTemps_db character set 'utf8';
+use emploiDuTemps_db;
+
+create table tb_enseignant(
+matricule varchar(20) primary key,
+nom varchar(150) not null,
+contact varchar(50) not null)
+engine=innodb;
+
+create table tb_cours(
+id int auto_increment primary key,
+classe varchar(30) not null,
+matiere varchar(80) not null,
+num_jour smallint,
+Jour varchar(20) not null,
+heure varchar(20) not null,
+matricule_ens varchar(20) not null)
+engine=innodb;
+
+alter table tb_cours add constraint fk foreign key(matricule_ens)
+references tb_enseignant(matricule);
+
+create view enseignant_cours as 
+  select matricule,nom,contact,id,classe,matiere,num_jour,jour,heure from
+    tb_enseignant inner join  tb_cours on
+     tb_enseignant.matricule=tb_cours.matricule_ens;
+
+
+

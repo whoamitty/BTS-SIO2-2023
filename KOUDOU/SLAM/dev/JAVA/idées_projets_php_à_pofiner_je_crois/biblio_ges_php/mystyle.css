@@ -1,0 +1,41 @@
+/* Created by TopStyle Trial - www.topstyle4.com */
+  
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #66cdaa;
+}
+.tab {
+	background-color: white;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+.tab th,td{
+	padding: 5px;
+}
+.bouton{
+	width: 150px;
+	height: 25px;
+	font-size: 17px;
+	background-color: #7fff00;
+}
+.bouton2{
+	width: 200px;
+	height: 25px;
+	font-size: 17px;
+	background-color: #7fff00;
+}
+.bouton3{
+	width: 350px;
+	height: 25px;
+	font-size: 17px;
+	background-color: #7fff00;
+}
+fieldset{
+	width: 50%;
+	border:3px solid black;
+}
+a{
+	color: white;
+	text-decoration: none;
+}

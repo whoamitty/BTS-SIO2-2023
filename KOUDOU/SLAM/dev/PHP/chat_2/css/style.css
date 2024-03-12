@@ -1,0 +1,99 @@
+body{background:#333}
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+#erro{
+	width:400px;
+	margin:0 auto;
+	background:#fff;
+	color:#f00;
+	text-align:center;
+}
+#frm-login {
+	width: 400px;
+	margin: 0 auto;
+	background:#fff;
+	
+}
+
+#frm-login fieldset{
+	border:1px solid #ccc;
+	padding:10px ;
+}
+
+#frm-login a{
+color:#333;
+display:block;
+text-align:center;
+}
+#frm-login a:hover{
+	background:#ccc;
+}
+
+#frm-login label input{
+		padding:5px 0; 
+		width:250px; 
+		border:1px solid #ccc; 
+		-moz-border-radius:5px;
+}
+#frm-login label input:focus{
+	border-color:#333;
+}
+#frm-login .btn{
+	padding:5px 10px;
+	cursor:pointer;
+}
+#frm-msg {
+	width: 900px;
+	margin: 0 auto;
+	background:#fff;
+}
+#frm-msg  fieldset{border:0}
+#frm-msg label{
+	width:750px;
+	display:block;
+	float:left;
+}
+#frm-msg label span{
+	display:block;
+	color:#333;
+}
+#frm-msg label textarea{
+	width:750px;
+	border:1px solid #ccc;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	overflow:auto;
+
+}
+#frm-msg label textarea:focus{
+	border-color:#333;
+}
+
+
+#frm-msg #submit{
+	padding:40px 30px;
+	float:right;
+	margin-top:20px;
+
+}
+
+#painel {
+	width: 900px;
+	height: 400px;
+	overflow: scroll;
+	margin: 0 auto;
+	background: #fff;
+}
+#painel p{
+	border-bottom:1px solid #e5e5e5;
+	color:#777;
+	padding:5px 0;
+	margin:0;
+}
+#painel p.ativo{
+	background:#e5f5f5
+}

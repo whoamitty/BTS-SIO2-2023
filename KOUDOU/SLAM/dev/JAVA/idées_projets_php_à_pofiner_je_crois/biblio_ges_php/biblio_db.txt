@@ -1,0 +1,18 @@
+Conception de la base de données: biblio_db (SGBD = Mysql)
+(Par TARGOTO CHRISTIAN le 17/04/2021)
+
+create database biblio_db character set 'utf8';
+
+use biblio_db;
+
+create table tb_livre(
+id_livre int auto_increment primary key,
+titre_livre varchar(150) not null,
+genre_livre varchar(100) not null,
+nom_auteur varchar(150) not null, 
+pays_auteur varchar(100) not null,
+region_auteur varchar(150) not null,
+annee_sortie int not null,
+nombre int not null)
+engine=innodb;
+
