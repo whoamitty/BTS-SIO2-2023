@@ -15,7 +15,7 @@ if(isset($_GET["nom"]) && isset($_GET["prenom"]) && isset($_GET["civilite"]) && 
     $message=$_GET["message"];
     // $sexe = $_GET["gender"];
     
-    $req=mysqli_query($link, "insert into users(nom,prenom,civilite,mail, message) values ('$nom','$prenom','$civilite','$mail','$message')");
+    $req=mysqli_query($link, "insert into user(nom,prenom,civilite,mail, message) values ('$nom','$prenom','$civilite','$mail','$message')");
     
 
        if($req) 

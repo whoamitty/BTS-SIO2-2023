@@ -14,17 +14,17 @@ $msg_ok = 'Votre demande a bien été prise en compte.";
 $message = $msg_erreur ;
 // Vérification des champs
 if(empty($_POST[" Civilite "]))
-message. = 'Votre Civilité <br/>';
-f(empty($_POST[" nom "]))
-message. = 'Votre nom <br/>';
-f(empty($_POST[" adresse "]))
-message. = 'Votre adresse <br/>';
-f(empty($_POST[" codepostal "]))
-message. = 'Votre Code postal <br/>';
-f(empty($_POST[" ville "]))
-message. = 'Votre ville <br/>';
-f(empty($_POST[" Commets "]))
-message. = 'Votre message <br/>';
+$message.= 'Votre Civilité <br/>';
+f(empty($_POST[" nom "]));
+$message.= 'Votre nom <br/>';
+f(empty($_POST[" adresse "]));
+$message.= 'Votre adresse <br/>';
+f(empty($_POST[" codepostal "]));
+$message.= 'Votre Code postal <br/>';
+f(empty($_POST[" ville "]));
+$message.='Votre ville <br/>';
+f(empty($_POST[" Commets "]));
+$message.='Votre message <br/>';
 // Si un champ est vide, on affiche le message d'erreur
 if(strlen($message) > strlen($msg_erreur)) {
 
@@ -42,7 +42,7 @@ for ( $i = 0; $i < count($interets); $i++)
     $sqlinterets .= ", " ;
 }
 
-$sql = " INSERT INTO formulaire VALUES(("","".$civilite."",  "".$nom."",  "".$adresse."",  "".$codepostal."",  "".$ville."",  "".$pays."",  "".$sqlinterets."",  "".$qlcomments."",  now())";
+$sql = "INSERT INTO formulaire VALUES(("","".$civilite."",  "".$nom."",  "".$adresse."",  "".$codepostal."",  "".$ville."",  "".$pays."",  "".$sqlinterets."",  "".$qlcomments."",  now())";
 $res = mysql_query($sql);
 if ($res) {
     echo $msg_ok;

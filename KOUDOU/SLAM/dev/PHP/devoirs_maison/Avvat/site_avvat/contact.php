@@ -2,7 +2,6 @@
 <html lang="fr">
 
 
-
 <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="css/Styles.css">
@@ -58,9 +57,9 @@
         </form> -->
 
 
-    <form class="formulaire" action ="FormulairePHPXAMPP-main/insert.php" method="GET">
+    <form class="formulaire" action="FormulairePHPXAMPP-main/insert.php" method="GET">
         <fieldset>
-            <legend>Inscription</legend>
+        <legend>Inscription</legend>
         <label>Nom</label> <input type ="text" name ="nom" placeholder="votre nom ici"/> <br>
         <label>Prénom</label> <input type ="text" name = "prenom" placeholder="votre Prénom ici"/> <br>
         <label>tel</label> <input type ="number" name="tel" placeholder="votre numéro de téléphone ici"/> <br>

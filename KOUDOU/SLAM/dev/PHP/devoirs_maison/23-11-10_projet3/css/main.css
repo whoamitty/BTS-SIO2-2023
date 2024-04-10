@@ -1,0 +1,32 @@
+body{
+  height: 100%;
+  overflow: hidden;
+  background-color:gray;
+}
+html{
+  height: 100%;
+}
+
+
+pre{
+    font-weight: 900;
+    font-size:5vw;
+    /* text-align: center; */
+}  
+
+
+
+/* the first element is <html> */
+* {
+  outline: 4px solid tomato;
+}
+
+/* the second nested element is <body> */
+* * {
+  outline: 4px solid black;
+}
+
+/* the third nested element is after <body> */
+* * * {
+  outline: 4px solid white;
+}
